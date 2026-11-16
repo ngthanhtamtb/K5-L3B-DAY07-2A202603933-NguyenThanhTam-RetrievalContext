@@ -1,0 +1,979 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "What are the geographical length and breadth of the coast of Africa from Cyrene to the ocean, and by what narrow strait is Africa divided from Spain?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "status": "answered",
+    "answer": "According to [gibbon-decline-and-fall-vol1_p016_para_000], From Cyrene to the ocean, the coast of Africa extends above fifteen hundred miles; yet so closely is it pressed between the Mediterranean and the Sahara, or sandy desert, that its breadth seldom exceeds fourscore or a hundred miles.",
+    "citations": [
+      "gibbon-decline-and-fall-vol1_p016_para_000"
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p016_para_000 | data/pg25717.txt | page 16]\nFrom Cyrene to the ocean, the coast of Africa extends above fifteen hundred miles; yet so closely is it pressed between the Mediterranean and the Sahara, or sandy desert, that its breadth seldom exceeds fourscore or a hundred miles. The eastern division was considered by the Romans as the more peculiar and proper province of Africa. Till the arrival of the Phœnician colonies, that fertile country was inhabited by the Libyans, the most savage of mankind.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p016_para_000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What are the geographical length and breadth of the coast of Africa from Cyrene to the ocean, and by what narrow strait is Africa divided from Spain?",
+        "filter": null,
+        "results": [
+          {
+            "id": "gibbon-decline-and-fall-vol1_p016_para_000",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 16,
+            "text": "From Cyrene to the ocean, the coast of Africa extends above fifteen hundred miles; yet so closely is it pressed between the Mediterranean and the Sahara, or sandy desert, that its breadth seldom exceeds fourscore or a hundred miles. The eastern division was considered by the Romans as the more peculiar and proper province of Africa. Till the arrival of the Phœnician colonies, that fertile country was inhabited by the Libyans, the most savage of mankind.",
+            "metadata": {
+              "year": 1782,
+              "topic": "military_and_frontiers",
+              "section": "chapter_1",
+              "language": "en",
+              "char_count": 5651,
+              "chunk_index": 0,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+              "unit_in_chapter": 16
+            },
+            "score": 0.7632392872345238,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p016_para_008",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 16,
+            "text": "Having now finished the circuit of the Roman empire, we may observe, that Africa is divided from Spain by a narrow strait of about twelve miles, through which the Atlantic flows into the Mediterranean. The columns of Hercules, so famous among the ancients, were two mountains which seemed to have been torn asunder by some convulsion of the elements; and at the foot of the European mountain, the fortress of Gibraltar is now seated.",
+            "metadata": {
+              "year": 1782,
+              "topic": "military_and_frontiers",
+              "section": "chapter_1",
+              "language": "en",
+              "char_count": 5651,
+              "chunk_index": 8,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+              "unit_in_chapter": 16
+            },
+            "score": 0.6640748977661133,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p016_para_009",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 16,
+            "text": "The whole extent of the Mediterranean Sea, its coasts and its islands, were comprised within the Roman dominion. Of the larger islands, the two Baleares, which derive their name of Majorca and Minorca from their respective size, are subject at present, the former to Spain, the latter to Great Britain. 871 It is easier to deplore the fate, than to describe the actual condition, of Corsica. 872 Two Italian sovereigns assume a regal title from Sardinia and Sicily.",
+            "metadata": {
+              "year": 1782,
+              "topic": "military_and_frontiers",
+              "section": "chapter_1",
+              "language": "en",
+              "char_count": 5651,
+              "chunk_index": 9,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+              "unit_in_chapter": 16
+            },
+            "score": 0.6189818751205143,
+            "retriever": "dense_pgvector"
+          }
+        ],
+        "context": "[gibbon-decline-and-fall-vol1_p016_para_000 | data/pg25717.txt | page 16]\nFrom Cyrene to the ocean, the coast of Africa extends above fifteen hundred miles; yet so closely is it pressed between the Mediterranean and the Sahara, or sandy desert, that its breadth seldom exceeds fourscore or a hundred miles. The eastern division was considered by the Romans as the more peculiar and proper province of Africa. Till the arrival of the Phœnician colonies, that fertile country was inhabited by the Libyans, the most savage of mankind.",
+        "context_ids": [
+          "gibbon-decline-and-fall-vol1_p016_para_000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 70.13039800040133,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 16,
+        "evidence": "From Cyrene to the ocean, the coast of Africa extends above fifteen hundred miles; yet so closely is it pressed between the Mediterranean and the Sahara, or sandy desert, that its breadth seldom exceeds fourscore or a hundred miles."
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "In the chapter on internal prosperity and commerce, from which Red Sea port did the annual Roman fleet of 120 vessels sail to India, how long did the ocean voyage take with the monsoons, and what was the estimated annual loss of silver?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "context": "[gibbon-decline-and-fall-vol1_p035_para_015 | data/pg25717.txt | page 35]\nThe labor and risk of the voyage was rewarded with almost incredible profit; but the profit was made upon Roman subjects, and a few individuals were enriched at the expense of the public. As the natives of Arabia and India were contented with the productions and manufactures of their own country, silver, on the side of the Romans, was the principal, if not the only 1051 instrument of commerce.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p035_para_015"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "In the chapter on internal prosperity and commerce, from which Red Sea port did the annual Roman fleet of 120 vessels sail to India, how long did the ocean voyage take with the monsoons, and what was the estimated annual loss of silver?",
+        "filter": {
+          "section": "chapter_2"
+        },
+        "results": [
+          {
+            "id": "gibbon-decline-and-fall-vol1_p035_para_015",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 35,
+            "text": "The labor and risk of the voyage was rewarded with almost incredible profit; but the profit was made upon Roman subjects, and a few individuals were enriched at the expense of the public. As the natives of Arabia and India were contented with the productions and manufactures of their own country, silver, on the side of the Romans, was the principal, if not the only 1051 instrument of commerce.",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 7072,
+              "chunk_index": 15,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 19
+            },
+            "score": 0.4934854813235424,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p033_para_015",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 33,
+            "text": "The coasts of Italy are, in general, destitute of safe harbors; but human industry had corrected the deficiencies of nature; and the artificial port of Ostia, in particular, situate at the mouth of the Tyber, and formed by the emperor Claudius, was a useful monument of Roman greatness. 91 From this port, which was only sixteen miles from the capital, a favorable breeze frequently carried vessels in seven days to the columns of Hercules, and in nine or ten, to Alexandria in Egypt. 92",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 5861,
+              "chunk_index": 15,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 17
+            },
+            "score": 0.47070767072714537,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p017_para_000",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 17,
+            "text": "Chapter II: The Internal Prosperity In The Age Of The Antonines.—Part I.\n\nOf The Union And Internal Prosperity Of The Roman Empire, In The Age Of The Antonines.\n\nIt is not alone by the rapidity, or extent of conquest, that we should estimate the greatness of Rome. The sovereign of the Russian deserts commands a larger portion of the globe. In the seventh summer after his passage of the Hellespont, Alexander erected the Macedonian trophies on the banks of the Hyphasis.",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 5127,
+              "chunk_index": 0,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 1
+            },
+            "score": 0.45980614663325947,
+            "retriever": "dense_pgvector"
+          }
+        ],
+        "context": "[gibbon-decline-and-fall-vol1_p035_para_015 | data/pg25717.txt | page 35]\nThe labor and risk of the voyage was rewarded with almost incredible profit; but the profit was made upon Roman subjects, and a few individuals were enriched at the expense of the public. As the natives of Arabia and India were contented with the productions and manufactures of their own country, silver, on the side of the Romans, was the principal, if not the only 1051 instrument of commerce.",
+        "context_ids": [
+          "gibbon-decline-and-fall-vol1_p035_para_015"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Red Sea India internal",
+        "filter": {
+          "section": "chapter_2"
+        },
+        "results": [
+          {
+            "id": "gibbon-decline-and-fall-vol1_p035_para_011",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 35,
+            "text": "101 There was a considerable demand for Babylonian carpets, and other manufactures of the East; but the most important and unpopular branch of foreign trade was carried on with Arabia and India. Every year, about the time of the summer solstice, a fleet of a hundred and twenty vessels sailed from Myos-hormos, a port of Egypt, on the Red Sea. By the periodical assistance of the monsoons, they traversed the ocean in about forty days.",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 7072,
+              "chunk_index": 11,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 19
+            },
+            "score": 0.4429224729537964,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p036_para_002",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 36,
+            "text": "1051 (return) [ Certainly not the only one. The Indians were not so contented with regard to foreign productions. Arrian has a long list of European wares, which they received in exchange for their own; Italian and other wines, brass, tin, lead, coral, chrysolith, storax, glass, dresses of one or many colors, zones, &c. See Periplus Maris Erythræi in Hudson, Geogr. Min. i. p. 27.—W. The German translator observes that Gibbon has confined the use of aromatics to religious worship and funerals.",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 4825,
+              "chunk_index": 2,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 20
+            },
+            "score": 0.3181518316268921,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p033_para_015",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 33,
+            "text": "The coasts of Italy are, in general, destitute of safe harbors; but human industry had corrected the deficiencies of nature; and the artificial port of Ostia, in particular, situate at the mouth of the Tyber, and formed by the emperor Claudius, was a useful monument of Roman greatness. 91 From this port, which was only sixteen miles from the capital, a favorable breeze frequently carried vessels in seven days to the columns of Hercules, and in nine or ten, to Alexandria in Egypt. 92",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 5861,
+              "chunk_index": 15,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 17
+            },
+            "score": 0.28772050999762167,
+            "retriever": "dense_pgvector"
+          }
+        ],
+        "context": "[gibbon-decline-and-fall-vol1_p035_para_015 | data/pg25717.txt | page 35]\nThe labor and risk of the voyage was rewarded with almost incredible profit; but the profit was made upon Roman subjects, and a few individuals were enriched at the expense of the public. As the natives of Arabia and India were contented with the productions and manufactures of their own country, silver, on the side of the Romans, was the principal, if not the only 1051 instrument of commerce.",
+        "context_ids": [
+          "gibbon-decline-and-fall-vol1_p035_para_015"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 112.5759120004659,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 35,
+        "evidence": "Every year, about the time of the summer solstice, a fleet of a hundred and twenty vessels sailed from Myos-hormos, a port of Egypt, on the Red Sea. By the periodical assistance of the monsoons, they traversed the ocean in about forty days."
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "During the 220 years from Augustus to the death of Commodus, what was the only violent eruption of military license that shook the Roman world, and how many princes perished in it?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "status": "answered",
+    "answer": "According to [gibbon-decline-and-fall-vol1_p046_para_002], Excepting only this short, though violent eruption of military license, the two centuries from Augustus 29 to Commodus passed away unstained with civil blood, and undisturbed by revolutions.",
+    "citations": [
+      "gibbon-decline-and-fall-vol1_p046_para_002"
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p046_para_002 | data/pg25717.txt | page 46]\nExcepting only this short, though violent eruption of military license, the two centuries from Augustus 29 to Commodus passed away unstained with civil blood, and undisturbed by revolutions. The emperor was elected by _the authority of the senate_, and _the consent of the soldiers_.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p046_para_002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "During the 220 years from Augustus to the death of Commodus, what was the only violent eruption of military license that shook the Roman world, and how many princes perished in it?",
+        "filter": null,
+        "results": [
+          {
+            "id": "gibbon-decline-and-fall-vol1_p046_para_002",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 46,
+            "text": "Excepting only this short, though violent eruption of military license, the two centuries from Augustus 29 to Commodus passed away unstained with civil blood, and undisturbed by revolutions. The emperor was elected by _the authority of the senate_, and _the consent of the soldiers_.",
+            "metadata": {
+              "year": 1782,
+              "topic": "constitution_and_emperors",
+              "section": "chapter_3",
+              "language": "en",
+              "char_count": 4630,
+              "chunk_index": 2,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+              "unit_in_chapter": 9
+            },
+            "score": 0.7714161046917438,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p003_para_010",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 3,
+            "text": "Such was the state of the Roman frontiers, and such the maxims of Imperial policy, from the death of Augustus to the accession of Trajan. That virtuous and active prince had received the education of a soldier, and possessed the talents of a general. 13 The peaceful system of his predecessors was interrupted by scenes of war and conquest; and the legions, after a long interval, beheld a military emperor at their head.",
+            "metadata": {
+              "year": 1782,
+              "topic": "military_and_frontiers",
+              "section": "chapter_1",
+              "language": "en",
+              "char_count": 5350,
+              "chunk_index": 10,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+              "unit_in_chapter": 3
+            },
+            "score": 0.6729389027989576,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p056_para_004",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 56,
+            "text": "The Prætorians, at length, gave way, oppressed with numbers; and the tide of popular fury returned with redoubled violence against the gates of the palace, where Commodus lay, dissolved in luxury, and alone unconscious of the civil war. It was death to approach his person with the unwelcome news. He would have perished in this supine security, had not two women, his eldest sister Fadilla, and Marcia, the most favored of his concubines, ventured to break into his presence.",
+            "metadata": {
+              "year": 1782,
+              "topic": "commodus_and_pertinax",
+              "section": "chapter_4",
+              "language": "en",
+              "char_count": 5813,
+              "chunk_index": 4,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+              "unit_in_chapter": 5
+            },
+            "score": 0.6554277333872264,
+            "retriever": "dense_pgvector"
+          }
+        ],
+        "context": "[gibbon-decline-and-fall-vol1_p046_para_002 | data/pg25717.txt | page 46]\nExcepting only this short, though violent eruption of military license, the two centuries from Augustus 29 to Commodus passed away unstained with civil blood, and undisturbed by revolutions. The emperor was elected by _the authority of the senate_, and _the consent of the soldiers_.",
+        "context_ids": [
+          "gibbon-decline-and-fall-vol1_p046_para_002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 63.869965000776574,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 46,
+        "evidence": "But Nero involved the whole empire in his ruin. In the space of eighteen months, four princes perished by the sword; and the Roman world was shaken by the fury of the contending armies."
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "At what age did Marcus Aurelius Antoninus adopt the philosophy of the Stoics, and how did he react when Avidius Cassius rebelled in Syria and died by voluntary death?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "status": "answered",
+    "answer": "According to [gibbon-decline-and-fall-vol1_p049_para_001], The virtue of Marcus Aurelius Antoninus was of severer and more laborious kind.",
+    "citations": [
+      "gibbon-decline-and-fall-vol1_p049_para_001"
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p049_para_001 | data/pg25717.txt | page 49]\nThe virtue of Marcus Aurelius Antoninus was of severer and more laborious kind. 45 It was the well-earned harvest of many a learned conference, of many a patient lecture, and many a midnight lucubration. At the age of twelve years he embraced the rigid system of the Stoics, which taught him to submit his body to his mind, his passions to his reason; to consider virtue as the only good, vice as the only evil, all things external as things indifferent.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p049_para_001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "At what age did Marcus Aurelius Antoninus adopt the philosophy of the Stoics, and how did he react when Avidius Cassius rebelled in Syria and died by voluntary death?",
+        "filter": null,
+        "results": [
+          {
+            "id": "gibbon-decline-and-fall-vol1_p049_para_001",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 49,
+            "text": "The virtue of Marcus Aurelius Antoninus was of severer and more laborious kind. 45 It was the well-earned harvest of many a learned conference, of many a patient lecture, and many a midnight lucubration. At the age of twelve years he embraced the rigid system of the Stoics, which taught him to submit his body to his mind, his passions to his reason; to consider virtue as the only good, vice as the only evil, all things external as things indifferent.",
+            "metadata": {
+              "year": 1782,
+              "topic": "constitution_and_emperors",
+              "section": "chapter_3",
+              "language": "en",
+              "char_count": 4650,
+              "chunk_index": 1,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+              "unit_in_chapter": 12
+            },
+            "score": 0.6575549040767505,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p049_para_007",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 49,
+            "text": "47 (return) [ Before he went on the second expedition against the Germans, he read lectures of philosophy to the Roman people, during three days. He had already done the same in the cities of Greece and Asia. Hist. August. in Cassio, c. 3.]\n\n471 (return) [ Cassius was murdered by his own partisans. Vulcat. Gallic. in Cassio, c. 7. Dion, lxxi. c. 27.—W.]",
+            "metadata": {
+              "year": 1782,
+              "topic": "constitution_and_emperors",
+              "section": "chapter_3",
+              "language": "en",
+              "char_count": 4650,
+              "chunk_index": 7,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+              "unit_in_chapter": 12
+            },
+            "score": 0.6313430447186865,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p052_para_011",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 52,
+            "text": "The distasteful lesson of a grave philosopher was, in a moment, obliterated by the whisper of a profligate favorite; and Marcus himself blasted the fruits of this labored education, by admitting his son, at the age of fourteen or fifteen, to a full participation of the Imperial power. He lived but four years afterwards: but he lived long enough to repent a rash measure, which raised the impetuous youth above the restraint of reason and authority.",
+            "metadata": {
+              "year": 1782,
+              "topic": "commodus_and_pertinax",
+              "section": "chapter_4",
+              "language": "en",
+              "char_count": 5843,
+              "chunk_index": 11,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+              "unit_in_chapter": 1
+            },
+            "score": 0.5954957363304946,
+            "retriever": "dense_pgvector"
+          }
+        ],
+        "context": "[gibbon-decline-and-fall-vol1_p049_para_001 | data/pg25717.txt | page 49]\nThe virtue of Marcus Aurelius Antoninus was of severer and more laborious kind. 45 It was the well-earned harvest of many a learned conference, of many a patient lecture, and many a midnight lucubration. At the age of twelve years he embraced the rigid system of the Stoics, which taught him to submit his body to his mind, his passions to his reason; to consider virtue as the only good, vice as the only evil, all things external as things indifferent.",
+        "context_ids": [
+          "gibbon-decline-and-fall-vol1_p049_para_001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 72.44618199911201,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 49,
+        "evidence": "At the age of twelve years he embraced the rigid system of the Stoics, which taught him to submit his body to his mind, his passions to his reason; to consider virtue as the only good, vice as the only evil, all things external as things indifferent."
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "In Chapter IV on Commodus, which gladiator class and weapons did Emperor Commodus choose in the amphitheatre, against what opponent did he fight, and how many times did he fight?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "context": "[gibbon-decline-and-fall-vol1_p058_para_003 | data/pg25717.txt | page 58]\n38 It may be easily supposed, that in these engagements the master of the world was always successful; in the amphitheatre, his victories were not often sanguinary; but when he exercised his skill in the school of gladiators, or his own palace, his wretched antagonists were frequently honored with a mortal wound from the hand of Commodus, and obliged to seal their flattery with their blood. 39 He now disdained the appellation of Hercules.\n\n[gibbon-decline-and-fall-vol1_p052_para_000 | data/pg25717.txt | page 52]\nChapter IV: The Cruelty, Follies And Murder Of Commodus.—Part I.\n\nThe Cruelty, Follies, And Murder Of Commodus—Election Of Pertinax—His Attempts To Reform The State—His Assassination By The Prætorian Guards.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p058_para_003",
+      "gibbon-decline-and-fall-vol1_p052_para_000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "In Chapter IV on Commodus, which gladiator class and weapons did Emperor Commodus choose in the amphitheatre, against what opponent did he fight, and how many times did he fight?",
+        "filter": {
+          "section": "chapter_4"
+        },
+        "results": [
+          {
+            "id": "gibbon-decline-and-fall-vol1_p058_para_003",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 58,
+            "text": "38 It may be easily supposed, that in these engagements the master of the world was always successful; in the amphitheatre, his victories were not often sanguinary; but when he exercised his skill in the school of gladiators, or his own palace, his wretched antagonists were frequently honored with a mortal wound from the hand of Commodus, and obliged to seal their flattery with their blood. 39 He now disdained the appellation of Hercules.",
+            "metadata": {
+              "year": 1782,
+              "topic": "commodus_and_pertinax",
+              "section": "chapter_4",
+              "language": "en",
+              "char_count": 5779,
+              "chunk_index": 3,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+              "unit_in_chapter": 7
+            },
+            "score": 0.6212150454521179,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p059_para_008",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 59,
+            "text": "Lætus conducted without delay his new emperor to the camp of the Prætorians, diffusing at the same time through the city a seasonable report that Commodus died suddenly of an apoplexy; and that the virtuous Pertinax had _already_ succeeded to the throne.",
+            "metadata": {
+              "year": 1782,
+              "topic": "commodus_and_pertinax",
+              "section": "chapter_4",
+              "language": "en",
+              "char_count": 5842,
+              "chunk_index": 8,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+              "unit_in_chapter": 8
+            },
+            "score": 0.5702452659606934,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p052_para_000",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 52,
+            "text": "Chapter IV: The Cruelty, Follies And Murder Of Commodus.—Part I.\n\nThe Cruelty, Follies, And Murder Of Commodus—Election Of Pertinax—His Attempts To Reform The State—His Assassination By The Prætorian Guards.",
+            "metadata": {
+              "year": 1782,
+              "topic": "commodus_and_pertinax",
+              "section": "chapter_4",
+              "language": "en",
+              "char_count": 5843,
+              "chunk_index": 0,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+              "unit_in_chapter": 1
+            },
+            "score": 0.569775402545929,
+            "retriever": "dense_pgvector"
+          }
+        ],
+        "context": "[gibbon-decline-and-fall-vol1_p058_para_003 | data/pg25717.txt | page 58]\n38 It may be easily supposed, that in these engagements the master of the world was always successful; in the amphitheatre, his victories were not often sanguinary; but when he exercised his skill in the school of gladiators, or his own palace, his wretched antagonists were frequently honored with a mortal wound from the hand of Commodus, and obliged to seal their flattery with their blood. 39 He now disdained the appellation of Hercules.\n\n[gibbon-decline-and-fall-vol1_p052_para_000 | data/pg25717.txt | page 52]\nChapter IV: The Cruelty, Follies And Murder Of Commodus.—Part I.\n\nThe Cruelty, Follies, And Murder Of Commodus—Election Of Pertinax—His Attempts To Reform The State—His Assassination By The Prætorian Guards.",
+        "context_ids": [
+          "gibbon-decline-and-fall-vol1_p058_para_003",
+          "gibbon-decline-and-fall-vol1_p052_para_000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Commodus Emperor commodus gladiator",
+        "filter": {
+          "section": "chapter_4"
+        },
+        "results": [
+          {
+            "id": "gibbon-decline-and-fall-vol1_p057_para_012",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 57,
+            "text": "34 (return) [ Commodus killed a camelopardalis or Giraffe, (Dion, l. lxxii. p. 1211,) the tallest, the most gentle, and the most useless of the large quadrupeds. This singular animal, a native only of the interior parts of Africa, has not been seen in Europe since the revival of letters; and though M. de Buffon (Hist. Naturelle, tom. xiii.) has endeavored to describe, he has not ventured to delineate, the Giraffe. * Note: The naturalists of our days have been more fortunate.",
+            "metadata": {
+              "year": 1782,
+              "topic": "commodus_and_pertinax",
+              "section": "chapter_4",
+              "language": "en",
+              "char_count": 5561,
+              "chunk_index": 12,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+              "unit_in_chapter": 6
+            },
+            "score": 0.6112663696348404,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p059_para_008",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 59,
+            "text": "Lætus conducted without delay his new emperor to the camp of the Prætorians, diffusing at the same time through the city a seasonable report that Commodus died suddenly of an apoplexy; and that the virtuous Pertinax had _already_ succeeded to the throne.",
+            "metadata": {
+              "year": 1782,
+              "topic": "commodus_and_pertinax",
+              "section": "chapter_4",
+              "language": "en",
+              "char_count": 5842,
+              "chunk_index": 8,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+              "unit_in_chapter": 8
+            },
+            "score": 0.6055646123160309,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p057_para_007",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 57,
+            "text": "32 (return) [ Dion, l. lxxii. p. 1216. Hist. August. p. 49.]\n\nElated with these praises, which gradually extinguished the innate sense of shame, Commodus resolved to exhibit before the eyes of the Roman people those exercises, which till then he had decently confined within the walls of his palace, and to the presence of a few favorites.",
+            "metadata": {
+              "year": 1782,
+              "topic": "commodus_and_pertinax",
+              "section": "chapter_4",
+              "language": "en",
+              "char_count": 5561,
+              "chunk_index": 7,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+              "unit_in_chapter": 6
+            },
+            "score": 0.605110359801098,
+            "retriever": "dense_pgvector"
+          }
+        ],
+        "context": "[gibbon-decline-and-fall-vol1_p058_para_003 | data/pg25717.txt | page 58]\n38 It may be easily supposed, that in these engagements the master of the world was always successful; in the amphitheatre, his victories were not often sanguinary; but when he exercised his skill in the school of gladiators, or his own palace, his wretched antagonists were frequently honored with a mortal wound from the hand of Commodus, and obliged to seal their flattery with their blood. 39 He now disdained the appellation of Hercules.\n\n[gibbon-decline-and-fall-vol1_p052_para_000 | data/pg25717.txt | page 52]\nChapter IV: The Cruelty, Follies And Murder Of Commodus.—Part I.\n\nThe Cruelty, Follies, And Murder Of Commodus—Election Of Pertinax—His Attempts To Reform The State—His Assassination By The Prætorian Guards.",
+        "context_ids": [
+          "gibbon-decline-and-fall-vol1_p058_para_003",
+          "gibbon-decline-and-fall-vol1_p052_para_000"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 111.65351700037718,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 58,
+        "evidence": "He chose the habit and arms of the _Secutor_, whose combat with the _Retiarius_ formed one of the most lively scenes in the bloody sports of the amphitheatre."
+      }
+    ]
+  },
+  {
+    "query_id": "q23_unans",
+    "split": "test",
+    "question": "In what year did the Visigoth king Alaric successfully besiege and sack the city of Rome?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "context": "[gibbon-decline-and-fall-vol1_p021_para_001 | data/pg25717.txt | page 21]\nThe most remarkable accessions to the strength of Rome, by the aggregation of conquered and foreign nations, took place under the regal and patrician—we may add, the Imperial government.—M.]\n\n21 (return) [ Herodotus, v. 97. It should seem, however, that he followed a large and popular estimation.]",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p021_para_001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "In what year did the Visigoth king Alaric successfully besiege and sack the city of Rome?",
+        "filter": null,
+        "results": [
+          {
+            "id": "gibbon-decline-and-fall-vol1_p021_para_001",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 21,
+            "text": "The most remarkable accessions to the strength of Rome, by the aggregation of conquered and foreign nations, took place under the regal and patrician—we may add, the Imperial government.—M.]\n\n21 (return) [ Herodotus, v. 97. It should seem, however, that he followed a large and popular estimation.]",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 4519,
+              "chunk_index": 1,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 5
+            },
+            "score": 0.6630172334303133,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p024_para_005",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 24,
+            "text": "44 (return) [ Dion Cassius, l. lxxvii. p. 1275. The first instance happened under the reign of Septimius Severus.]\n\nIt is a just though trite observation, that victorious Rome was herself subdued by the arts of Greece. Those immortal writers who still command the admiration of modern Europe, soon became the favorite object of study and imitation in Italy and the western provinces. But the elegant amusements of the Romans were not suffered to interfere with their sound maxims of policy.",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 5605,
+              "chunk_index": 5,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 8
+            },
+            "score": 0.6384968757629395,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p022_para_005",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 22,
+            "text": "“Wheresoever the Roman conquers, he inhabits,” is a very just observation of Seneca, 30 confirmed by history and experience. The natives of Italy, allured by pleasure or by interest, hastened to enjoy the advantages of victory; and we may remark, that, about forty years after the reduction of Asia, eighty thousand Romans were massacred in one day, by the cruel orders of Mithridates.",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 5149,
+              "chunk_index": 5,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 6
+            },
+            "score": 0.6189075708389282,
+            "retriever": "dense_pgvector"
+          }
+        ],
+        "context": "[gibbon-decline-and-fall-vol1_p021_para_001 | data/pg25717.txt | page 21]\nThe most remarkable accessions to the strength of Rome, by the aggregation of conquered and foreign nations, took place under the regal and patrician—we may add, the Imperial government.—M.]\n\n21 (return) [ Herodotus, v. 97. It should seem, however, that he followed a large and popular estimation.]",
+        "context_ids": [
+          "gibbon-decline-and-fall-vol1_p021_para_001"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Visigoth Alaric Rome year",
+        "filter": null,
+        "results": [
+          {
+            "id": "gibbon-decline-and-fall-vol1_p032_para_001",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 32,
+            "text": "72 (return) [ Donatus de Roma Vetere, l. iii. c. 4, 5, 6. Nardini Roma Antica, l. iii. 11, 12, 13, and a Ms. description of ancient Rome, by Bernardus Oricellarius, or Rucellai, of which I obtained a copy from the library of the Canon Ricardi at Florence. Two celebrated pictures of Timanthes and of Protogenes are mentioned by Pliny, as in the Temple of Peace; and the Laocoon was found in the baths of Titus.]",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 5438,
+              "chunk_index": 1,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 16
+            },
+            "score": 0.6379931733600108,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p024_para_005",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 24,
+            "text": "44 (return) [ Dion Cassius, l. lxxvii. p. 1275. The first instance happened under the reign of Septimius Severus.]\n\nIt is a just though trite observation, that victorious Rome was herself subdued by the arts of Greece. Those immortal writers who still command the admiration of modern Europe, soon became the favorite object of study and imitation in Italy and the western provinces. But the elegant amusements of the Romans were not suffered to interfere with their sound maxims of policy.",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 5605,
+              "chunk_index": 5,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 8
+            },
+            "score": 0.6303520578355835,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p020_para_004",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 20,
+            "text": "679; l. liv. p. 735.) They remained, however, very fashionable under his reign (Ovid. de Art. Amand. l. i.) and that of his successor, till the justice of Tiberius was provoked to some acts of severity. (See Tacit. Annal. ii. 85. Joseph. Antiquit. l. xviii. c. 3.) * Note: See, in the pictures from the walls of Pompeii, the representation of an Isiac temple and worship. Vestiges of Egyptian worship have been traced in Gaul, and, I am informed, recently in Britain, in excavations at York.— M.]",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 4871,
+              "chunk_index": 4,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 4
+            },
+            "score": 0.6068468455580988,
+            "retriever": "dense_pgvector"
+          }
+        ],
+        "context": "[gibbon-decline-and-fall-vol1_p021_para_001 | data/pg25717.txt | page 21]\nThe most remarkable accessions to the strength of Rome, by the aggregation of conquered and foreign nations, took place under the regal and patrician—we may add, the Imperial government.—M.]\n\n21 (return) [ Herodotus, v. 97. It should seem, however, that he followed a large and popular estimation.]",
+        "context_ids": [
+          "gibbon-decline-and-fall-vol1_p021_para_001"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 115.09501399996225,
+    "gold": []
+  },
+  {
+    "query_id": "q24_unans",
+    "split": "test",
+    "question": "What military tactics did the Byzantine general Belisarius employ during the siege of Rome to recover the city from the Ostrogoths?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "context": "[gibbon-decline-and-fall-vol1_p054_para_015 | data/pg25717.txt | page 54]\nGibbon, foreseeing, perhaps, this difficulty, has added, that the military deputation inflamed the divisions of the guards; but Dion says expressly that they did not reach Rome, but that the emperor went out to meet them: he even reproaches him for not having opposed them with the guards, who were superior in number. Herodian relates that Commodus, having learned, from a soldier, the ambitious designs of Perennis and his son, caused them to be attacked and massacred by night.—G. from W.\n\n[gibbon-decline-and-fall-vol1_p020_para_000 | data/pg25717.txt | page 20]\n13 (return) [ Seneca, Consolat. ad Helviam, p. 74. Edit., Lips.]\n\n14 (return) [ Dionysius Halicarn. Antiquitat. Roman. l. ii. (vol. i. p. 275, edit. Reiske.)]",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p054_para_015",
+      "gibbon-decline-and-fall-vol1_p020_para_000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What military tactics did the Byzantine general Belisarius employ during the siege of Rome to recover the city from the Ostrogoths?",
+        "filter": null,
+        "results": [
+          {
+            "id": "gibbon-decline-and-fall-vol1_p054_para_015",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 54,
+            "text": "Gibbon, foreseeing, perhaps, this difficulty, has added, that the military deputation inflamed the divisions of the guards; but Dion says expressly that they did not reach Rome, but that the emperor went out to meet them: he even reproaches him for not having opposed them with the guards, who were superior in number. Herodian relates that Commodus, having learned, from a soldier, the ambitious designs of Perennis and his son, caused them to be attacked and massacred by night.—G. from W.",
+            "metadata": {
+              "year": 1782,
+              "topic": "commodus_and_pertinax",
+              "section": "chapter_4",
+              "language": "en",
+              "char_count": 6019,
+              "chunk_index": 15,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+              "unit_in_chapter": 3
+            },
+            "score": 0.6412477707119136,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p003_para_010",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 3,
+            "text": "Such was the state of the Roman frontiers, and such the maxims of Imperial policy, from the death of Augustus to the accession of Trajan. That virtuous and active prince had received the education of a soldier, and possessed the talents of a general. 13 The peaceful system of his predecessors was interrupted by scenes of war and conquest; and the legions, after a long interval, beheld a military emperor at their head.",
+            "metadata": {
+              "year": 1782,
+              "topic": "military_and_frontiers",
+              "section": "chapter_1",
+              "language": "en",
+              "char_count": 5350,
+              "chunk_index": 10,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+              "unit_in_chapter": 3
+            },
+            "score": 0.6313658952713013,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p029_para_010",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 29,
+            "text": "The legions were destined to serve against the public enemy, and the civil magistrate seldom required the aid of a military force. 63 In this state of general security, the leisure, as well as opulence, both of the prince and people, were devoted to improve and to adorn the Roman empire.\n\n63 (return) [ Joseph. de Bell. Judaico, l. ii. c. 16. The oration of Agrippa, or rather of the historian, is a fine picture of the Roman empire.]",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 4570,
+              "chunk_index": 10,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 13
+            },
+            "score": 0.6273706333262117,
+            "retriever": "dense_pgvector"
+          }
+        ],
+        "context": "[gibbon-decline-and-fall-vol1_p054_para_015 | data/pg25717.txt | page 54]\nGibbon, foreseeing, perhaps, this difficulty, has added, that the military deputation inflamed the divisions of the guards; but Dion says expressly that they did not reach Rome, but that the emperor went out to meet them: he even reproaches him for not having opposed them with the guards, who were superior in number. Herodian relates that Commodus, having learned, from a soldier, the ambitious designs of Perennis and his son, caused them to be attacked and massacred by night.—G. from W.",
+        "context_ids": [
+          "gibbon-decline-and-fall-vol1_p054_para_015"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Byzantine Belisarius Rome Ostrogoths",
+        "filter": null,
+        "results": [
+          {
+            "id": "gibbon-decline-and-fall-vol1_p032_para_001",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 32,
+            "text": "72 (return) [ Donatus de Roma Vetere, l. iii. c. 4, 5, 6. Nardini Roma Antica, l. iii. 11, 12, 13, and a Ms. description of ancient Rome, by Bernardus Oricellarius, or Rucellai, of which I obtained a copy from the library of the Canon Ricardi at Florence. Two celebrated pictures of Timanthes and of Protogenes are mentioned by Pliny, as in the Temple of Peace; and the Laocoon was found in the baths of Titus.]",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 5438,
+              "chunk_index": 1,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 16
+            },
+            "score": 0.6458491068347493,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p020_para_000",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 20,
+            "text": "13 (return) [ Seneca, Consolat. ad Helviam, p. 74. Edit., Lips.]\n\n14 (return) [ Dionysius Halicarn. Antiquitat. Roman. l. ii. (vol. i. p. 275, edit. Reiske.)]",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 4871,
+              "chunk_index": 0,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 4
+            },
+            "score": 0.6242926492865473,
+            "retriever": "dense_pgvector"
+          },
+          {
+            "id": "gibbon-decline-and-fall-vol1_p024_para_005",
+            "source_id": "gibbon-decline-and-fall-vol1",
+            "source": "data/pg25717.txt",
+            "page": 24,
+            "text": "44 (return) [ Dion Cassius, l. lxxvii. p. 1275. The first instance happened under the reign of Septimius Severus.]\n\nIt is a just though trite observation, that victorious Rome was herself subdued by the arts of Greece. Those immortal writers who still command the admiration of modern Europe, soon became the favorite object of study and imitation in Italy and the western provinces. But the elegant amusements of the Romans were not suffered to interfere with their sound maxims of policy.",
+            "metadata": {
+              "year": 1782,
+              "topic": "prosperity_and_society",
+              "section": "chapter_2",
+              "language": "en",
+              "char_count": 5605,
+              "chunk_index": 5,
+              "chunk_method": "by_paragraph",
+              "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+              "unit_in_chapter": 8
+            },
+            "score": 0.6048964442281858,
+            "retriever": "dense_pgvector"
+          }
+        ],
+        "context": "[gibbon-decline-and-fall-vol1_p054_para_015 | data/pg25717.txt | page 54]\nGibbon, foreseeing, perhaps, this difficulty, has added, that the military deputation inflamed the divisions of the guards; but Dion says expressly that they did not reach Rome, but that the emperor went out to meet them: he even reproaches him for not having opposed them with the guards, who were superior in number. Herodian relates that Commodus, having learned, from a soldier, the ambitious designs of Perennis and his son, caused them to be attacked and massacred by night.—G. from W.\n\n[gibbon-decline-and-fall-vol1_p020_para_000 | data/pg25717.txt | page 20]\n13 (return) [ Seneca, Consolat. ad Helviam, p. 74. Edit., Lips.]\n\n14 (return) [ Dionysius Halicarn. Antiquitat. Roman. l. ii. (vol. i. p. 275, edit. Reiske.)]",
+        "context_ids": [
+          "gibbon-decline-and-fall-vol1_p054_para_015",
+          "gibbon-decline-and-fall-vol1_p020_para_000"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 102.65180500027782,
+    "gold": []
+  }
+]

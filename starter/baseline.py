@@ -38,8 +38,11 @@ def validate(chunks, questions):
             raise ValueError(f"question {q['id']}: split hoặc question không hợp lệ")
         if not isinstance(q.get('expected_answer'), str) or not q['expected_answer'].strip():
             raise ValueError(f"question {q['id']}: expected_answer phải là chuỗi không rỗng")
+        if not q.get('answerable', True):
+            continue
         if not isinstance(q.get('gold'), list) or not q['gold']:
             raise ValueError(f"question {q['id']}: gold phải là danh sách không rỗng")
+        if not q.get('answerable', True): continue
         for g in q['gold']:
             if not all(key in g and g[key] is not None for key in ('source_id', 'page', 'evidence')) or not isinstance(g['evidence'], str) or not g['evidence']:
                 raise ValueError(f"question {q['id']}: gold không hợp lệ")
@@ -121,9 +124,10 @@ def main():
     index = TfidfIndex(chunks)
     index_seconds = time.perf_counter() - started
     traces = evaluate(index, selected)
-    summary = {'strategy': 'tfidf', 'split': args.split, 'n': len(traces),
-               'hit1': sum(t['hit1'] for t in traces), 'hit3': sum(t['hit3'] for t in traces),
-               'context_hit': sum(t['context_hit'] for t in traces),
+    ans_traces = [t for t in traces if any(q['id'] == t['query_id'] and q.get('answerable', True) for q in selected)]
+    summary = {'strategy': 'tfidf', 'split': args.split, 'n': len(traces), 'n_answerable': len(ans_traces),
+               'hit1': sum(t['hit1'] for t in ans_traces), 'hit3': sum(t['hit3'] for t in ans_traces),
+               'context_hit': sum(t['context_hit'] for t in ans_traces),
                'avg_context_chars': statistics.mean(t['context_chars'] for t in traces),
                'median_ms': statistics.median(t['elapsed_ms'] for t in traces),
                'index_seconds': index_seconds, 'service_cost_usd': 0}

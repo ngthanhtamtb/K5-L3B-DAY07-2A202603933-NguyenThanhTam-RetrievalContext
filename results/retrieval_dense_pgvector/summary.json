@@ -1,0 +1,14 @@
+{
+  "strategy": "dense_pgvector",
+  "split": "dev",
+  "n_total": 17,
+  "n_answerable": 15,
+  "hit1": 10,
+  "hit1_rate": 0.6667,
+  "hit3": 11,
+  "hit3_rate": 0.7333,
+  "context_hit": 10,
+  "context_evidence_rate": 0.6667,
+  "avg_context_chars": 541,
+  "median_ms": 65.76
+}

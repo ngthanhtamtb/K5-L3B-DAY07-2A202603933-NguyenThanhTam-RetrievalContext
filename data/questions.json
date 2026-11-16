@@ -1,0 +1,358 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "During the happy period of more than fourscore years in the second century, which emperors conducted the public administration of Rome?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 1,
+        "evidence": "During a happy period of more than fourscore years, the public administration was conducted by the virtue and abilities of Nerva, Trajan, Hadrian, and the two Antonines."
+      }
+    ],
+    "expected_answer": "Nerva, Trajan, Hadrian, and the two Antonines.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Which river did Trajan descend in triumph from the mountains of Armenia to the Persian Gulf during his eastern expedition?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 4,
+        "evidence": "He descended the River Tigris in triumph, from the mountains of Armenia to the Persian Gulf."
+      }
+    ],
+    "expected_answer": "The River Tigris.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "How was the cavalry of an imperial Roman legion organized into squadrons, and what was the total number of horsemen per legion?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 8,
+        "evidence": "The cavalry, without which the force of the legion would have remained imperfect, was divided into ten troops or squadrons; the first, as the companion of the first cohort, consisted of a hundred and thirty-two men; whilst each of the other nine amounted only to sixty-six."
+      }
+    ],
+    "expected_answer": "It was divided into ten troops or squadrons (the first with 132 men and the other nine with 66 each), forming a regiment of 726 horse.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "In the chapter on military force and frontiers, who were recruited into the auxiliary troops and how did their numbers compare to the legions?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 9,
+        "evidence": "All these were included under the general name of auxiliaries; and howsoever they might vary according to the difference of times and circumstances, their numbers were seldom much inferior to those of the legions themselves."
+      }
+    ],
+    "expected_answer": "Provincials not yet citizens, dependent princes/communities, and select barbarian troops were included as auxiliaries, and their numbers were seldom much inferior to those of the legions.",
+    "filter": {
+      "section": "chapter_1"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Before Britain lost her freedom to Rome, into how many barbarian tribes was the country divided, and which four tribes were the most considerable?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 12,
+        "evidence": "Before Britain lost her freedom, the country was irregularly divided between thirty tribes of barbarians, of whom the most considerable were the Belg\u00e6 in the West, the Brigantes in the North, the Silures in South Wales, and the Iceni in Norfolk and Suffolk."
+      }
+    ],
+    "expected_answer": "Thirty tribes of barbarians; the most considerable were the Belgae in the West, the Brigantes in the North, the Silures in South Wales, and the Iceni in Norfolk and Suffolk.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "How did the growth of citizen numbers in the Roman Republic from Servius Tullius to the Social War contrast with the citizen population of Athens?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 20,
+        "evidence": "During the most flourishing \u00e6ra of the Athenian commonwealth, the number of citizens gradually decreased from about thirty 21 to twenty-one thousand."
+      }
+    ],
+    "expected_answer": "Athenian citizens decreased from about 30,000 to 21,000, whereas Roman citizens grew from 83,000 under Servius Tullius to 463,000 men able to bear arms before the Social War.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Why did the native inhabitants of Egypt and Syria remain secluded from the commerce of mankind, and how long after the ruin of the Ptolemies was an Egyptian finally admitted into the Roman senate?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 23,
+        "evidence": "Those nations had submitted to the Roman power, but they seldom desired or deserved the freedom of the city: and it was remarked, that more than two hundred and thirty years elapsed after the ruin of the Ptolemies, before an Egyptian was admitted into the senate of Rome."
+      }
+    ],
+    "expected_answer": "Their continued use of their ancient dialects secluded them from the commerce of mankind and checked their improvement; more than 230 years elapsed after the ruin of the Ptolemies before an Egyptian was admitted into the senate of Rome.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "According to the chapter on internal prosperity, how many Roman citizens were counted when Emperor Claudius served as censor, and what was the estimated total population of the Roman world including provincials and slaves?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 28,
+        "evidence": "We are informed, that when the Emperor Claudius exercised the office of censor, he took an account of six millions nine hundred and forty-five thousand Roman citizens, who, with the proportion of women and children, must have amounted to about twenty millions of souls."
+      }
+    ],
+    "expected_answer": "Claudius counted 6,945,000 Roman citizens (about 20 million souls with women and children), and the total population including provincials and slaves was estimated at about 120 million.",
+    "filter": {
+      "section": "chapter_2"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Why was the Asian city of Laodicea rejected by the senate when eleven cities disputed the honor of dedicating a temple to Tiberius, despite its wool revenue and legacy?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 32,
+        "evidence": "Eleven cities of Asia had once disputed the honor of dedicating a temple of Tiberius, and their respective merits were examined by the senate. 80 Four of them were immediately rejected as unequal to the burden; and among these was Laodicea, whose splendor is still displayed in its ruins."
+      }
+    ],
+    "expected_answer": "Four of the eleven cities, including Laodicea, were immediately rejected as unequal to the burden, even though Laodicea had revenue from fine-wool sheep and a legacy of above 400,000 pounds.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Unless public liberty is protected by vigilant guardians, what balance is capable of preserving a free constitution against the enterprises of an aspiring prince?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 38,
+        "evidence": "A martial nobility and stubborn commons, possessed of arms, tenacious of property, and collected into constitutional assemblies, form the only balance capable of preserving a free constitution against enterprises of an aspiring prince."
+      }
+    ],
+    "expected_answer": "A martial nobility and stubborn commons, possessed of arms, tenacious of property, and collected into constitutional assemblies.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "In Chapter III on the Roman constitution, which two lifelong republican offices did Augustus permit the senate to confer upon him so he could reign under venerable names rather than military force?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 41,
+        "evidence": "With this view, he permitted the senate to confer upon him, for his life, the powers of the consular 11 and tribunitian offices, 12 which were, in the same manner, continued to all his successors."
+      }
+    ],
+    "expected_answer": "The powers of the consular and tribunitian offices for life.",
+    "filter": {
+      "section": "chapter_3"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Whom did Hadrian first adopt as his successor before Antoninus Pius, and what happened to that nobleman?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 48,
+        "evidence": "After revolving in his mind several men of distinguished merit, whom he esteemed and hated, he adopted \u00c6lius Verus a gay and voluptuous nobleman, recommended by uncommon beauty to the lover of Antinous. 40 But whilst Hadrian was delighting himself with his own applause, and the acclamations of the soldiers, whose consent had been secured by an immense donative, the new C\u00e6sar 41 was ravished from his embraces by an untimely death."
+      }
+    ],
+    "expected_answer": "Hadrian first adopted Aelius Verus, a gay and voluptuous nobleman, who died an untimely death before succeeding to the throne, leaving one son.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "What words did the assassin in the dark portico of the amphitheatre exclaim when rushing upon Commodus with a drawn sword, and how did they affect Commodus's attitude toward the senate?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 54,
+        "evidence": "But the words of the assassin sunk deep into the mind of Commodus, and left an indelible impression of fear and hatred against the whole body of the senate. 151 Those whom he had dreaded as importunate ministers, he now suspected as secret enemies."
+      }
+    ],
+    "expected_answer": "The assassin exclaimed 'The senate sends you this,' which left an indelible impression of fear and hatred in Commodus against the whole body of the senate and revived the Delators.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "When the daring soldier Maternus was encompassed in Gaul and Spain, what desperate plan did he concert to murder Commodus at Rome, and why did it fail?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 55,
+        "evidence": "He ordered his followers to disperse, to pass the Alps in small parties and various disguises, and to assemble at Rome, during the licentious tumult of the festival of Cybele."
+      }
+    ],
+    "expected_answer": "He ordered his followers to pass the Alps in small parties and disguises and assemble at Rome during the festival of Cybele to murder Commodus, but the envy of an accomplice discovered and ruined the enterprise.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In Chapter IV, how did Emperor Pertinax treat his private fortune, his wife's title, and his son's rank on the day of his accession?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 60,
+        "evidence": "On the day of his accession, he resigned over to his wife and son his whole private fortune; that they might have no pretence to solicit favors at the expense of the state. He refused to flatter the vanity of the former with the title of Augusta; or to corrupt the inexperienced youth of the latter by the rank of C\u00e6sar."
+      }
+    ],
+    "expected_answer": "He resigned his whole private fortune to his wife and son, refused to flatter his wife with the title of Augusta, and refused to corrupt his son with the rank of Caesar.",
+    "filter": {
+      "section": "chapter_4"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What are the geographical length and breadth of the coast of Africa from Cyrene to the ocean, and by what narrow strait is Africa divided from Spain?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 16,
+        "evidence": "From Cyrene to the ocean, the coast of Africa extends above fifteen hundred miles; yet so closely is it pressed between the Mediterranean and the Sahara, or sandy desert, that its breadth seldom exceeds fourscore or a hundred miles."
+      }
+    ],
+    "expected_answer": "The coast of Africa extends above 1,500 miles with a breadth of seldom more than 80 or 100 miles between the Mediterranean and the Sahara; it is divided from Spain by a narrow strait of about 12 miles (the Columns of Hercules).",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "In the chapter on internal prosperity and commerce, from which Red Sea port did the annual Roman fleet of 120 vessels sail to India, how long did the ocean voyage take with the monsoons, and what was the estimated annual loss of silver?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 35,
+        "evidence": "Every year, about the time of the summer solstice, a fleet of a hundred and twenty vessels sailed from Myos-hormos, a port of Egypt, on the Red Sea. By the periodical assistance of the monsoons, they traversed the ocean in about forty days."
+      }
+    ],
+    "expected_answer": "A fleet of 120 vessels sailed from Myos-hormos in Egypt about the summer solstice, traversed the ocean in about 40 days to Malabar or Ceylon, and the annual loss of silver was computed at upwards of 800,000 pounds sterling.",
+    "filter": {
+      "section": "chapter_2"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "During the 220 years from Augustus to the death of Commodus, what was the only violent eruption of military license that shook the Roman world, and how many princes perished in it?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 46,
+        "evidence": "But Nero involved the whole empire in his ruin. In the space of eighteen months, four princes perished by the sword; and the Roman world was shaken by the fury of the contending armies."
+      }
+    ],
+    "expected_answer": "On the ruin of Nero, in the space of eighteen months, four princes perished by the sword and the Roman world was shaken by contending armies; otherwise the two centuries passed unstained by civil blood except three inconsiderable rebellions.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "At what age did Marcus Aurelius Antoninus adopt the philosophy of the Stoics, and how did he react when Avidius Cassius rebelled in Syria and died by voluntary death?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 49,
+        "evidence": "At the age of twelve years he embraced the rigid system of the Stoics, which taught him to submit his body to his mind, his passions to his reason; to consider virtue as the only good, vice as the only evil, all things external as things indifferent."
+      }
+    ],
+    "expected_answer": "He embraced the rigid system of the Stoics at age twelve; when Avidius Cassius rebelled in Syria, Marcus regretted that Cassius's voluntary death deprived him of the pleasure of converting an enemy into a friend, and he moderated the senate's zeal against the rebels.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "In Chapter IV on Commodus, which gladiator class and weapons did Emperor Commodus choose in the amphitheatre, against what opponent did he fight, and how many times did he fight?",
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 58,
+        "evidence": "He chose the habit and arms of the _Secutor_, whose combat with the _Retiarius_ formed one of the most lively scenes in the bloody sports of the amphitheatre."
+      }
+    ],
+    "expected_answer": "He chose the habit and arms of the Secutor (helmet, sword, and buckler) fighting against the Retiarius (armed with a large net and trident), and fought 735 times.",
+    "filter": {
+      "section": "chapter_4"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q21_unans",
+    "split": "dev",
+    "question": "In what specific year did Emperor Valerian suffer capture by the Persian king Shapur I, leading to his fatal captivity?",
+    "answerable": false,
+    "gold": [],
+    "expected_answer": "The text does not record the capture of Emperor Valerian by Shapur I.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Valerian capture occurred in 260 AD (Chapter X), which is outside Chapters I-IV.",
+    "filter": null
+  },
+  {
+    "id": "q22_unans",
+    "split": "dev",
+    "question": "How did the Battle of Adrianople in 378 AD unfold between Emperor Valens and the Visigoths, and what was its fatal outcome for the Emperor?",
+    "answerable": false,
+    "gold": [],
+    "expected_answer": "The provided text does not contain evidence regarding the Battle of Adrianople or the death of Emperor Valens, as it only covers historical events up to the death of Commodus in 192 AD.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The Battle of Adrianople took place in 378 AD, far beyond the timeline of Chapters I-IV.",
+    "filter": null
+  },
+  {
+    "id": "q23_unans",
+    "split": "test",
+    "question": "In what year did the Visigoth king Alaric successfully besiege and sack the city of Rome?",
+    "answerable": false,
+    "gold": [],
+    "expected_answer": "The provided documentation does not contain information about Alaric sacking Rome, as the corpus ends with the assassination of Commodus.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The sack of Rome by Alaric occurred in 410 AD (covered in Chapter XXXI), which is outside the ingested Chapters I-IV.",
+    "filter": null
+  },
+  {
+    "id": "q24_unans",
+    "split": "test",
+    "question": "What military tactics did the Byzantine general Belisarius employ during the siege of Rome to recover the city from the Ostrogoths?",
+    "answerable": false,
+    "gold": [],
+    "expected_answer": "The ingested text does not contain any record of General Belisarius or the campaigns against the Ostrogoths.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "General Belisarius lived in the 6th century under Emperor Justinian (covered in Chapter XLI), which is completely absent from Chapters I-IV.",
+    "filter": null
+  }
+]

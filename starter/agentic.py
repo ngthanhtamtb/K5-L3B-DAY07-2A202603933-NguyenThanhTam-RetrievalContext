@@ -4,7 +4,7 @@ Adapters are intentionally not provided: Day 6 has no fixed database schema and
 model providers differ. Never use fake adapters to report benchmark quality.
 """
 from typing import Any, Protocol
-from baseline import pack_context
+from starter.baseline import pack_context
 
 
 class Controller(Protocol):

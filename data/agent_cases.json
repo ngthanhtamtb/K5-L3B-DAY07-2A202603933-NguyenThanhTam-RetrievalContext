@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "During the happy period of more than fourscore years in the second century, which emperors conducted the public administration of Rome?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Which river did Trajan descend in triumph from the mountains of Armenia to the Persian Gulf during his eastern expedition?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "How was the cavalry of an imperial Roman legion organized into squadrons, and what was the total number of horsemen per legion?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "In the chapter on military force and frontiers, who were recruited into the auxiliary troops and how did their numbers compare to the legions?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Before Britain lost her freedom to Rome, into how many barbarian tribes was the country divided, and which four tribes were the most considerable?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "How did the growth of citizen numbers in the Roman Republic from Servius Tullius to the Social War contrast with the citizen population of Athens?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Why did the native inhabitants of Egypt and Syria remain secluded from the commerce of mankind, and how long after the ruin of the Ptolemies was an Egyptian finally admitted into the Roman senate?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "According to the chapter on internal prosperity, how many Roman citizens were counted when Emperor Claudius served as censor, and what was the estimated total population of the Roman world including provincials and slaves?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Why was the Asian city of Laodicea rejected by the senate when eleven cities disputed the honor of dedicating a temple to Tiberius, despite its wool revenue and legacy?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Unless public liberty is protected by vigilant guardians, what balance is capable of preserving a free constitution against the enterprises of an aspiring prince?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "In Chapter III on the Roman constitution, which two lifelong republican offices did Augustus permit the senate to confer upon him so he could reign under venerable names rather than military force?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Whom did Hadrian first adopt as his successor before Antoninus Pius, and what happened to that nobleman?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "What words did the assassin in the dark portico of the amphitheatre exclaim when rushing upon Commodus with a drawn sword, and how did they affect Commodus's attitude toward the senate?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "When the daring soldier Maternus was encompassed in Gaul and Spain, what desperate plan did he concert to murder Commodus at Rome, and why did it fail?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In Chapter IV, how did Emperor Pertinax treat his private fortune, his wife's title, and his son's rank on the day of his accession?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What are the geographical length and breadth of the coast of Africa from Cyrene to the ocean, and by what narrow strait is Africa divided from Spain?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "In the chapter on internal prosperity and commerce, from which Red Sea port did the annual Roman fleet of 120 vessels sail to India, how long did the ocean voyage take with the monsoons, and what was the estimated annual loss of silver?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "During the 220 years from Augustus to the death of Commodus, what was the only violent eruption of military license that shook the Roman world, and how many princes perished in it?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "At what age did Marcus Aurelius Antoninus adopt the philosophy of the Stoics, and how did he react when Avidius Cassius rebelled in Syria and died by voluntary death?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "In Chapter IV on Commodus, which gladiator class and weapons did Emperor Commodus choose in the amphitheatre, against what opponent did he fight, and how many times did he fight?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q21_unans",
+    "split": "dev",
+    "question": "In what specific year did Emperor Valerian suffer capture by the Persian king Shapur I, leading to his fatal captivity?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Valerian capture occurred in 260 AD (Chapter X), which is outside Chapters I-IV."
+  },
+  {
+    "id": "q22_unans",
+    "split": "dev",
+    "question": "How did the Battle of Adrianople in 378 AD unfold between Emperor Valens and the Visigoths, and what was its fatal outcome for the Emperor?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The Battle of Adrianople took place in 378 AD, far beyond the timeline of Chapters I-IV."
+  },
+  {
+    "id": "q23_unans",
+    "split": "test",
+    "question": "In what year did the Visigoth king Alaric successfully besiege and sack the city of Rome?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The sack of Rome by Alaric occurred in 410 AD (covered in Chapter XXXI), which is outside the ingested Chapters I-IV."
+  },
+  {
+    "id": "q24_unans",
+    "split": "test",
+    "question": "What military tactics did the Byzantine general Belisarius employ during the siege of Rome to recover the city from the Ostrogoths?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "General Belisarius lived in the 6th century under Emperor Justinian (covered in Chapter XLI), which is completely absent from Chapters I-IV."
+  }
+]

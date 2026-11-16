@@ -1,0 +1,1508 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "During the happy period of more than fourscore years in the second century, which emperors conducted the public administration of Rome?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 1,
+        "evidence": "During a happy period of more than fourscore years, the public administration was conducted by the virtue and abilities of Nerva, Trajan, Hadrian, and the two Antonines."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p001_para_002",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 1,
+        "text": "The image of a free constitution was preserved with decent reverence: the Roman senate appeared to possess the sovereign authority, and devolved on the emperors all the executive powers of government. During a happy period of more than fourscore years, the public administration was conducted by the virtue and abilities of Nerva, Trajan, Hadrian, and the two Antonines.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 4586,
+          "chunk_index": 2,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 1
+        },
+        "score": 40.19039327763499,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p050_para_005",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 50,
+        "text": "During fourscore years (excepting only the short and doubtful respite of Vespasian’s reign) 51 Rome groaned beneath an unremitting tyranny, which exterminated the ancient families of the republic, and was fatal to almost every virtue and every talent that arose in that unhappy period.",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 5068,
+          "chunk_index": 5,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 13
+        },
+        "score": 22.353052591769373,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p005_para_003",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 5,
+        "text": "25 But the tranquil life of Antoninus Pius was spent in the bosom of Italy, and, during the twenty-three years that he directed the public administration, the longest journeys of that amiable prince extended no farther than from his palace in Rome to the retirement of his Lanuvian villa. 26",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 5980,
+          "chunk_index": 3,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 5
+        },
+        "score": 19.427463815463042,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p001_para_002 | data/pg25717.txt | page 1]\nThe image of a free constitution was preserved with decent reverence: the Roman senate appeared to possess the sovereign authority, and devolved on the emperors all the executive powers of government. During a happy period of more than fourscore years, the public administration was conducted by the virtue and abilities of Nerva, Trajan, Hadrian, and the two Antonines.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p001_para_002"
+    ],
+    "context_chars": 443,
+    "elapsed_ms": 2.1250239997243625,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Which river did Trajan descend in triumph from the mountains of Armenia to the Persian Gulf during his eastern expedition?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 4,
+        "evidence": "He descended the River Tigris in triumph, from the mountains of Armenia to the Persian Gulf."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p004_para_002",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 4,
+        "text": "Like him, the Roman emperor undertook an expedition against the nations of the East; but he lamented with a sigh, that his advanced age scarcely left him any hopes of equalling the renown of the son of Philip. 19 Yet the success of Trajan, however transient, was rapid and specious. The degenerate Parthians, broken by intestine discord, fled before his arms. He descended the River Tigris in triumph, from the mountains of Armenia to the Persian Gulf.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 4701,
+          "chunk_index": 2,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 4
+        },
+        "score": 39.42590225653018,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p013_para_014",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 13,
+        "text": "On the opposite side, the province of Cilicia was terminated by the mountains of Syria: the inland country, separated from the Roman Asia by the River Halys, and from Armenia by the Euphrates, had once formed the independent kingdom of Cappadocia. In this place we may observe, that the northern shores of the Euxine, beyond Trebizond in Asia, and beyond the Danube in Europe, acknowledged the sovereignty of the emperors, and received at their hands either tributary princes or Roman garrisons.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 5409,
+          "chunk_index": 14,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 13
+        },
+        "score": 15.263256371572783,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p004_para_008",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 4,
+        "text": "22 During many ages, the prediction, as it is usual, contributed to its own accomplishment. But though Terminus had resisted the Majesty of Jupiter, he submitted to the authority of the emperor Hadrian. 23 The resignation of all the eastern conquests of Trajan was the first measure of his reign.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 4701,
+          "chunk_index": 8,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 4
+        },
+        "score": 14.343471366260324,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p004_para_002 | data/pg25717.txt | page 4]\nLike him, the Roman emperor undertook an expedition against the nations of the East; but he lamented with a sigh, that his advanced age scarcely left him any hopes of equalling the renown of the son of Philip. 19 Yet the success of Trajan, however transient, was rapid and specious. The degenerate Parthians, broken by intestine discord, fled before his arms. He descended the River Tigris in triumph, from the mountains of Armenia to the Persian Gulf.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p004_para_002"
+    ],
+    "context_chars": 525,
+    "elapsed_ms": 1.4300399998319335,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "How was the cavalry of an imperial Roman legion organized into squadrons, and what was the total number of horsemen per legion?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 8,
+        "evidence": "The cavalry, without which the force of the legion would have remained imperfect, was divided into ten troops or squadrons; the first, as the companion of the first cohort, consisted of a hundred and thirty-two men; whilst each of the other nine amounted only to sixty-six."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p008_para_004",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 8,
+        "text": "The cavalry, without which the force of the legion would have remained imperfect, was divided into ten troops or squadrons; the first, as the companion of the first cohort, consisted of a hundred and thirty-two men; whilst each of the other nine amounted only to sixty-six.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 6150,
+          "chunk_index": 4,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 8
+        },
+        "score": 24.249069192224795,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p009_para_003",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 9,
+        "text": "By this institution, each legion, to whom a certain proportion of auxiliaries was allotted, contained within itself every species of lighter troops, and of missile weapons; and was capable of encountering every nation, with the advantages of its respective arms and discipline. 58 Nor was the legion destitute of what, in modern language, would be styled a train of artillery.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 4699,
+          "chunk_index": 3,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 9
+        },
+        "score": 17.481744909095806,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p008_para_009",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 8,
+        "text": "50 (return) [ Veget. de Re Militari, l. ii. c. 6. His positive testimony, which might be supported by circumstantial evidence, ought surely to silence those critics who refuse the Imperial legion its proper body of cavalry. Note: See also Joseph. B. J. iii. vi. 2.—M.]\n\n51 (return) [ See Livy almost throughout, particularly xlii. 61.]",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 6150,
+          "chunk_index": 9,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 8
+        },
+        "score": 16.249836736812107,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p008_para_004 | data/pg25717.txt | page 8]\nThe cavalry, without which the force of the legion would have remained imperfect, was divided into ten troops or squadrons; the first, as the companion of the first cohort, consisted of a hundred and thirty-two men; whilst each of the other nine amounted only to sixty-six.\n\n[gibbon-decline-and-fall-vol1_p009_para_003 | data/pg25717.txt | page 9]\nBy this institution, each legion, to whom a certain proportion of auxiliaries was allotted, contained within itself every species of lighter troops, and of missile weapons; and was capable of encountering every nation, with the advantages of its respective arms and discipline. 58 Nor was the legion destitute of what, in modern language, would be styled a train of artillery.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p008_para_004",
+      "gibbon-decline-and-fall-vol1_p009_para_003"
+    ],
+    "context_chars": 797,
+    "elapsed_ms": 2.6594199998726253,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "In the chapter on military force and frontiers, who were recruited into the auxiliary troops and how did their numbers compare to the legions?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 9,
+        "evidence": "All these were included under the general name of auxiliaries; and howsoever they might vary according to the difference of times and circumstances, their numbers were seldom much inferior to those of the legions themselves."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p010_para_005",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 10,
+        "text": "Instead of being confined within the walls of fortified cities, which the Romans considered as the refuge of weakness or pusillanimity, the legions were encamped on the banks of the great rivers, and along the frontiers of the barbarians. As their stations, for the most part, remained fixed and permanent, we may venture to describe the distribution of the troops. Three legions were sufficient for Britain.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 6362,
+          "chunk_index": 5,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 10
+        },
+        "score": 17.237919275517232,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p009_para_001",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 9,
+        "text": "55 Even select troops of hostile barbarians were frequently compelled or persuaded to consume their dangerous valor in remote climates, and for the benefit of the state. 56 All these were included under the general name of auxiliaries; and howsoever they might vary according to the difference of times and circumstances, their numbers were seldom much inferior to those of the legions themselves.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 4699,
+          "chunk_index": 1,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 9
+        },
+        "score": 16.030449565116786,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p001_para_000",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 1,
+        "text": "Chapter I: The Extent Of The Empire In The Age Of The Antonines—Part I.\n\nIntroduction.\n\nThe Extent And Military Force Of The Empire In The Age Of The Antonines.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 4586,
+          "chunk_index": 0,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 1
+        },
+        "score": 15.423148983766815,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p010_para_005 | data/pg25717.txt | page 10]\nInstead of being confined within the walls of fortified cities, which the Romans considered as the refuge of weakness or pusillanimity, the legions were encamped on the banks of the great rivers, and along the frontiers of the barbarians. As their stations, for the most part, remained fixed and permanent, we may venture to describe the distribution of the troops. Three legions were sufficient for Britain.\n\n[gibbon-decline-and-fall-vol1_p001_para_000 | data/pg25717.txt | page 1]\nChapter I: The Extent Of The Empire In The Age Of The Antonines—Part I.\n\nIntroduction.\n\nThe Extent And Military Force Of The Empire In The Age Of The Antonines.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p010_para_005",
+      "gibbon-decline-and-fall-vol1_p001_para_000"
+    ],
+    "context_chars": 717,
+    "elapsed_ms": 2.1960179992674966,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Before Britain lost her freedom to Rome, into how many barbarian tribes was the country divided, and which four tribes were the most considerable?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 12,
+        "evidence": "Before Britain lost her freedom, the country was irregularly divided between thirty tribes of barbarians, of whom the most considerable were the Belgæ in the West, the Brigantes in the North, the Silures in South Wales, and the Iceni in Norfolk and Suffolk."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p012_para_000",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 12,
+        "text": "We have already had occasion to mention the conquest of Britain, and to fix the boundary of the Roman Province in this island. It comprehended all England, Wales, and the Lowlands of Scotland, as far as the Friths of Dumbarton and Edinburgh. Before Britain lost her freedom, the country was irregularly divided between thirty tribes of barbarians, of whom the most considerable were the Belgæ in the West, the Brigantes in the North, the Silures in South Wales, and the Iceni in Norfolk and Suffolk.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 4832,
+          "chunk_index": 0,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 12
+        },
+        "score": 37.10946359290382,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p002_para_012",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 2,
+        "text": "After a war of about forty years, undertaken by the most stupid, 7 maintained by the most dissolute, and terminated by the most timid of all the emperors, the far greater part of the island submitted to the Roman yoke. 8 The various tribes of Britain possessed valor without conduct, and the love of freedom without the spirit of union.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 5345,
+          "chunk_index": 12,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 2
+        },
+        "score": 20.221427044537467,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p054_para_010",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 54,
+        "text": "The fall of a minister is a very trifling incident in the general history of the empire; but it was hastened by an extraordinary circumstance, which proved how much the nerves of discipline were already relaxed. The legions of Britain, discontented with the administration of Perennis, formed a deputation of fifteen hundred select men, with instructions to march to Rome, and lay their complaints before the emperor.",
+        "metadata": {
+          "year": 1782,
+          "topic": "commodus_and_pertinax",
+          "section": "chapter_4",
+          "language": "en",
+          "char_count": 6019,
+          "chunk_index": 10,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+          "unit_in_chapter": 3
+        },
+        "score": 16.40236447657304,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p012_para_000 | data/pg25717.txt | page 12]\nWe have already had occasion to mention the conquest of Britain, and to fix the boundary of the Roman Province in this island. It comprehended all England, Wales, and the Lowlands of Scotland, as far as the Friths of Dumbarton and Edinburgh. Before Britain lost her freedom, the country was irregularly divided between thirty tribes of barbarians, of whom the most considerable were the Belgæ in the West, the Brigantes in the North, the Silures in South Wales, and the Iceni in Norfolk and Suffolk.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p012_para_000"
+    ],
+    "context_chars": 573,
+    "elapsed_ms": 1.4328380002552876,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How did the growth of citizen numbers in the Roman Republic from Servius Tullius to the Social War contrast with the citizen population of Athens?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 20,
+        "evidence": "During the most flourishing æra of the Athenian commonwealth, the number of citizens gradually decreased from about thirty 21 to twenty-one thousand."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p020_para_009",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 20,
+        "text": "22 If, on the contrary, we study the growth of the Roman republic, we may discover, that, notwithstanding the incessant demands of wars and colonies, the citizens, who, in the first census of Servius Tullius, amounted to no more than eighty-three thousand, were multiplied, before the commencement of the social war, to the number of four hundred and sixty-three thousand men, able to bear arms in the service of their country.",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 4871,
+          "chunk_index": 9,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 4
+        },
+        "score": 30.710491035086044,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p031_para_005",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 31,
+        "text": "Nor was the liberality of that illustrious citizen confined to the walls of Athens. The most splendid ornaments bestowed on the temple of Neptune in the Isthmus, a theatre at Corinth, a stadium at Delphi, a bath at Thermopylæ, and an aqueduct at Canusium in Italy, were insufficient to exhaust his treasures.",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 5861,
+          "chunk_index": 5,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 15
+        },
+        "score": 15.931664041075917,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p029_para_004",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 29,
+        "text": "From that time, the numbers began to diminish, at first from the enormous waste of life out of the free population in the foreign, and afterwards in the civil wars; from the cultivation of the soil by slaves; towards the close of the republic, from the repugnance to marriage, which resisted alike the dread of legal punishment and the offer of legal immunity and privilege; and from the depravity of manners, which interfered with the procreation, the birth, and the rearing of children.",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 4570,
+          "chunk_index": 4,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 13
+        },
+        "score": 14.801503915842778,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p020_para_009 | data/pg25717.txt | page 20]\n22 If, on the contrary, we study the growth of the Roman republic, we may discover, that, notwithstanding the incessant demands of wars and colonies, the citizens, who, in the first census of Servius Tullius, amounted to no more than eighty-three thousand, were multiplied, before the commencement of the social war, to the number of four hundred and sixty-three thousand men, able to bear arms in the service of their country.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p020_para_009"
+    ],
+    "context_chars": 501,
+    "elapsed_ms": 1.9740460002140026,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Why did the native inhabitants of Egypt and Syria remain secluded from the commerce of mankind, and how long after the ruin of the Ptolemies was an Egyptian finally admitted into the Roman senate?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 23,
+        "evidence": "Those nations had submitted to the Roman power, but they seldom desired or deserved the freedom of the city: and it was remarked, that more than two hundred and thirty years elapsed after the ruin of the Ptolemies, before an Egyptian was admitted into the senate of Rome."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p023_para_011",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 23,
+        "text": "43 Those nations had submitted to the Roman power, but they seldom desired or deserved the freedom of the city: and it was remarked, that more than two hundred and thirty years elapsed after the ruin of the Ptolemies, before an Egyptian was admitted into the senate of Rome. 44",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 4738,
+          "chunk_index": 11,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 7
+        },
+        "score": 35.39219931984934,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p023_para_010",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 23,
+        "text": "Such was the general division of the Roman empire into the Latin and Greek languages. To these we may add a third distinction for the body of the natives in Syria, and especially in Egypt, the use of their ancient dialects, by secluding them from the commerce of mankind, checked the improvements of those barbarians. 42 The slothful effeminacy of the former exposed them to the contempt, the sullen ferociousness of the latter excited the aversion, of the conquerors.",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 4738,
+          "chunk_index": 10,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 7
+        },
+        "score": 19.77700175929736,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p020_para_010",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 20,
+        "text": "23 When the allies of Rome claimed an equal share of honors and privileges, the senate indeed preferred the chance of arms to an ignominious concession. The Samnites and the Lucanians paid the severe penalty of their rashness; but the rest of the Italian states, as they successively returned to their duty, were admitted into the bosom of the republic, 24 and soon contributed to the ruin of public freedom.",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 4871,
+          "chunk_index": 10,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 4
+        },
+        "score": 16.36555310057111,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p023_para_011 | data/pg25717.txt | page 23]\n43 Those nations had submitted to the Roman power, but they seldom desired or deserved the freedom of the city: and it was remarked, that more than two hundred and thirty years elapsed after the ruin of the Ptolemies, before an Egyptian was admitted into the senate of Rome. 44",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p023_para_011"
+    ],
+    "context_chars": 351,
+    "elapsed_ms": 3.190510000422364,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "According to the chapter on internal prosperity, how many Roman citizens were counted when Emperor Claudius served as censor, and what was the estimated total population of the Roman world including provincials and slaves?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 28,
+        "evidence": "We are informed, that when the Emperor Claudius exercised the office of censor, he took an account of six millions nine hundred and forty-five thousand Roman citizens, who, with the proportion of women and children, must have amounted to about twenty millions of souls."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p028_para_004",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 28,
+        "text": "But, after weighing with attention every circumstance which could influence the balance, it seems probable that there existed, in the time of Claudius, about twice as many provincials as there were citizens, of either sex, and of every age; and that the slaves were at least equal in number to the free inhabitants of the Roman world.611 The total amount of this imperfect calculation would rise to about one hundred and twenty millions of persons; a degree of population which possibly exceeds that",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 5199,
+          "chunk_index": 4,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 12
+        },
+        "score": 33.81948859443734,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p028_para_002",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 28,
+        "text": "The number of subjects who acknowledged the laws of Rome, of citizens, of provincials, and of slaves, cannot now be fixed with such a degree of accuracy, as the importance of the object would deserve. We are informed, that when the Emperor Claudius exercised the office of censor, he took an account of six millions nine hundred and forty-five thousand Roman citizens, who, with the proportion of women and children, must have amounted to about twenty millions of souls.",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 5199,
+          "chunk_index": 2,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 12
+        },
+        "score": 28.989847002350874,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p028_para_006",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 28,
+        "text": "611] ( return) [ According to Robertson, there were twice as many slaves as free citizens.—G. Mr. Blair (p. 15) estimates three slaves to one freeman, between the conquest of Greece, B.C. 146, and the reign of Alexander Severus, A. D. 222, 235. The proportion was probably larger in Italy than in the provinces.—M. On the other hand, Zumpt, in his Dissertation quoted below, (p. 86,) asserts it to be a gross error in Gibbon to reckon the number of slaves equal to that of the free population.",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 5199,
+          "chunk_index": 6,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 12
+        },
+        "score": 22.11630063143056,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p028_para_004 | data/pg25717.txt | page 28]\nBut, after weighing with attention every circumstance which could influence the balance, it seems probable that there existed, in the time of Claudius, about twice as many provincials as there were citizens, of either sex, and of every age; and that the slaves were at least equal in number to the free inhabitants of the Roman world.611 The total amount of this imperfect calculation would rise to about one hundred and twenty millions of persons; a degree of population which possibly exceeds that",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p028_para_004"
+    ],
+    "context_chars": 573,
+    "elapsed_ms": 2.6291069998478633,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Why was the Asian city of Laodicea rejected by the senate when eleven cities disputed the honor of dedicating a temple to Tiberius, despite its wool revenue and legacy?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 32,
+        "evidence": "Eleven cities of Asia had once disputed the honor of dedicating a temple of Tiberius, and their respective merits were examined by the senate. 80 Four of them were immediately rejected as unequal to the burden; and among these was Laodicea, whose splendor is still displayed in its ruins."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p032_para_013",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 32,
+        "text": "Eleven cities of Asia had once disputed the honor of dedicating a temple of Tiberius, and their respective merits were examined by the senate. 80 Four of them were immediately rejected as unequal to the burden; and among these was Laodicea, whose splendor is still displayed in its ruins.",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 5438,
+          "chunk_index": 13,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 16
+        },
+        "score": 55.526684285531175,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p032_para_014",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 32,
+        "text": "81 Laodicea collected a very considerable revenue from its flocks of sheep, celebrated for the fineness of their wool, and had received, a little before the contest, a legacy of above four hundred thousand pounds by the testament of a generous citizen. 82 If such was the poverty of Laodicea, what must have been the wealth of those cities, whose claim appeared preferable, and particularly of Pergamus, of Smyrna, and of Ephesus, who so long disputed with each other the titular primacy of Asia?",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 5438,
+          "chunk_index": 14,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 16
+        },
+        "score": 33.02024041786183,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p033_para_005",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 33,
+        "text": "80 (return) [ Tacit. Annal. iv. 55. I have taken some pains in consulting and comparing modern travellers, with regard to the fate of those eleven cities of Asia. Seven or eight are totally destroyed: Hypæpe, Tralles, Laodicea, Hium, Halicarnassus, Miletus, Ephesus, and we may add Sardes.",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 5861,
+          "chunk_index": 5,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 17
+        },
+        "score": 15.93537591438223,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p032_para_013 | data/pg25717.txt | page 32]\nEleven cities of Asia had once disputed the honor of dedicating a temple of Tiberius, and their respective merits were examined by the senate. 80 Four of them were immediately rejected as unequal to the burden; and among these was Laodicea, whose splendor is still displayed in its ruins.\n\n[gibbon-decline-and-fall-vol1_p033_para_005 | data/pg25717.txt | page 33]\n80 (return) [ Tacit. Annal. iv. 55. I have taken some pains in consulting and comparing modern travellers, with regard to the fate of those eleven cities of Asia. Seven or eight are totally destroyed: Hypæpe, Tralles, Laodicea, Hium, Halicarnassus, Miletus, Ephesus, and we may add Sardes.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p032_para_013",
+      "gibbon-decline-and-fall-vol1_p033_para_005"
+    ],
+    "context_chars": 727,
+    "elapsed_ms": 2.310681999915687,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Unless public liberty is protected by vigilant guardians, what balance is capable of preserving a free constitution against the enterprises of an aspiring prince?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 38,
+        "evidence": "A martial nobility and stubborn commons, possessed of arms, tenacious of property, and collected into constitutional assemblies, form the only balance capable of preserving a free constitution against enterprises of an aspiring prince."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p038_para_003",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 38,
+        "text": "101 A martial nobility and stubborn commons, possessed of arms, tenacious of property, and collected into constitutional assemblies, form the only balance capable of preserving a free constitution against enterprises of an aspiring prince.",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 4598,
+          "chunk_index": 3,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 1
+        },
+        "score": 53.97399866180084,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p038_para_001",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 38,
+        "text": "The obvious definition of a monarchy seems to be that of a state, in which a single person, by whatsoever name he may be distinguished, is intrusted with the execution of the laws, the management of the revenue, and the command of the army. But, unless public liberty is protected by intrepid and vigilant guardians, the authority of so formidable a magistrate will soon degenerate into despotism.",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 4598,
+          "chunk_index": 1,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 1
+        },
+        "score": 34.58615200646892,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p039_para_014",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 39,
+        "text": "But when the arms of the legions were carried to a great distance from Italy, the general assumed the liberty of directing them against whatever people, and in whatever manner, they judged most advantageous for the public service. It was from the success, not from the justice, of their enterprises, that they expected the honors of a triumph. In the use of victory, especially after they were no longer controlled by the commissioners of the senate, they exercised the most unbounded despotism.",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 6250,
+          "chunk_index": 14,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 2
+        },
+        "score": 15.249026143892904,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p038_para_003 | data/pg25717.txt | page 38]\n101 A martial nobility and stubborn commons, possessed of arms, tenacious of property, and collected into constitutional assemblies, form the only balance capable of preserving a free constitution against enterprises of an aspiring prince.\n\n[gibbon-decline-and-fall-vol1_p038_para_001 | data/pg25717.txt | page 38]\nThe obvious definition of a monarchy seems to be that of a state, in which a single person, by whatsoever name he may be distinguished, is intrusted with the execution of the laws, the management of the revenue, and the command of the army. But, unless public liberty is protected by intrepid and vigilant guardians, the authority of so formidable a magistrate will soon degenerate into despotism.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p038_para_003",
+      "gibbon-decline-and-fall-vol1_p038_para_001"
+    ],
+    "context_chars": 786,
+    "elapsed_ms": 1.4590400005545234,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "In Chapter III on the Roman constitution, which two lifelong republican offices did Augustus permit the senate to confer upon him so he could reign under venerable names rather than military force?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 41,
+        "evidence": "With this view, he permitted the senate to confer upon him, for his life, the powers of the consular 11 and tribunitian offices, 12 which were, in the same manner, continued to all his successors."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p041_para_000",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 41,
+        "text": "Although Augustus considered a military force as the firmest foundation, he wisely rejected it, as a very odious instrument of government. It was more agreeable to his temper, as well as to his policy, to reign under the venerable names of ancient magistracy, and artfully to collect, in his own person, all the scattered rays of civil jurisdiction.",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 4978,
+          "chunk_index": 0,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 4
+        },
+        "score": 27.880319168621305,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p041_para_001",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 41,
+        "text": "With this view, he permitted the senate to confer upon him, for his life, the powers of the consular 11 and tribunitian offices, 12 which were, in the same manner, continued to all his successors. The consuls had succeeded to the kings of Rome, and represented the dignity of the state. They superintended the ceremonies of religion, levied and commanded the legions, gave audience to foreign ambassadors, and presided in the assemblies both of the senate and people.",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 4978,
+          "chunk_index": 1,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 4
+        },
+        "score": 21.199977696309197,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p038_para_000",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 38,
+        "text": "Chapter III: The Constitution In The Age Of The Antonines.—Part I.\n\nOf The Constitution Of The Roman Empire, In The Age Of The Antonines.",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 4598,
+          "chunk_index": 0,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 1
+        },
+        "score": 19.61880005362018,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p041_para_000 | data/pg25717.txt | page 41]\nAlthough Augustus considered a military force as the firmest foundation, he wisely rejected it, as a very odious instrument of government. It was more agreeable to his temper, as well as to his policy, to reign under the venerable names of ancient magistracy, and artfully to collect, in his own person, all the scattered rays of civil jurisdiction.\n\n[gibbon-decline-and-fall-vol1_p038_para_000 | data/pg25717.txt | page 38]\nChapter III: The Constitution In The Age Of The Antonines.—Part I.\n\nOf The Constitution Of The Roman Empire, In The Age Of The Antonines.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p041_para_000",
+      "gibbon-decline-and-fall-vol1_p038_para_000"
+    ],
+    "context_chars": 636,
+    "elapsed_ms": 1.439466000192624,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Whom did Hadrian first adopt as his successor before Antoninus Pius, and what happened to that nobleman?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 48,
+        "evidence": "After revolving in his mind several men of distinguished merit, whom he esteemed and hated, he adopted Ælius Verus a gay and voluptuous nobleman, recommended by uncommon beauty to the lover of Antinous. 40 But whilst Hadrian was delighting himself with his own applause, and the acclamations of the soldiers, whose consent had been secured by an immense donative, the new Cæsar 41 was ravished from his embraces by an untimely death."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p048_para_008",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 48,
+        "text": "42 (return) [ Without the help of medals and inscriptions, we should be ignorant of this fact, so honorable to the memory of Pius. Note: Gibbon attributes to Antoninus Pius a merit which he either did not possess, or was not in a situation to display.\n\n1. He was adopted only on the condition that he would adopt, in his turn, Marcus Aurelius and L. Verus.",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 5124,
+          "chunk_index": 8,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 11
+        },
+        "score": 20.644962337408067,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p005_para_001",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 5,
+        "text": "The martial and ambitious spirit of Trajan formed a very singular contrast with the moderation of his successor. The restless activity of Hadrian was not less remarkable when compared with the gentle repose of Antoninus Pius. The life of the former was almost a perpetual journey; and as he possessed the various talents of the soldier, the statesman, and the scholar, he gratified his curiosity in the discharge of his duty.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 5980,
+          "chunk_index": 1,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 5
+        },
+        "score": 17.129619300194086,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p044_para_012",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 44,
+        "text": "Artzen) says that Hadrian first received this title on his adoption; but as the adoption of Hadrian is still doubtful, and besides this, as Trajan, on his death-bed, was not likely to have created a new title for his successor, it is more probable that Ælius Verus was the first who was called Cæsar when adopted by Hadrian. Spart. in Ælio Vero, 102.—W.]\n\nChapter III: The Constitution In The Age Of The Antonines.—Part II.",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 4511,
+          "chunk_index": 12,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 7
+        },
+        "score": 16.740573399323914,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p048_para_008 | data/pg25717.txt | page 48]\n42 (return) [ Without the help of medals and inscriptions, we should be ignorant of this fact, so honorable to the memory of Pius. Note: Gibbon attributes to Antoninus Pius a merit which he either did not possess, or was not in a situation to display.\n\n1. He was adopted only on the condition that he would adopt, in his turn, Marcus Aurelius and L. Verus.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p048_para_008"
+    ],
+    "context_chars": 430,
+    "elapsed_ms": 0.9470790000705165,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "What words did the assassin in the dark portico of the amphitheatre exclaim when rushing upon Commodus with a drawn sword, and how did they affect Commodus's attitude toward the senate?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 54,
+        "evidence": "But the words of the assassin sunk deep into the mind of Commodus, and left an indelible impression of fear and hatred against the whole body of the senate. 151 Those whom he had dreaded as importunate ministers, he now suspected as secret enemies."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p053_para_010",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 53,
+        "text": "One evening, as the emperor was returning to the palace, through a dark and narrow portico in the amphitheatre, 14 an assassin, who waited his passage, rushed upon him with a drawn sword, loudly exclaiming, “_The senate sends you this_.” The menace prevented the deed; the assassin was seized by the guards, and immediately revealed the authors of the conspiracy. It had been formed, not in the state, but within the walls of the palace.",
+        "metadata": {
+          "year": 1782,
+          "topic": "commodus_and_pertinax",
+          "section": "chapter_4",
+          "language": "en",
+          "char_count": 4760,
+          "chunk_index": 10,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+          "unit_in_chapter": 2
+        },
+        "score": 37.17655912073172,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p054_para_001",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 54,
+        "text": "But the words of the assassin sunk deep into the mind of Commodus, and left an indelible impression of fear and hatred against the whole body of the senate. 151 Those whom he had dreaded as importunate ministers, he now suspected as secret enemies. The Delators, a race of men discouraged, and almost extinguished, under the former reigns, again became formidable, as soon as they discovered that the emperor was desirous of finding disaffection and treason in the senate.",
+        "metadata": {
+          "year": 1782,
+          "topic": "commodus_and_pertinax",
+          "section": "chapter_4",
+          "language": "en",
+          "char_count": 6019,
+          "chunk_index": 1,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+          "unit_in_chapter": 3
+        },
+        "score": 19.459675554384905,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p054_para_003",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 54,
+        "text": "Suspicion was equivalent to proof; trial to condemnation. The execution of a considerable senator was attended with the death of all who might lament or revenge his fate; and when Commodus had once tasted human blood, he became incapable of pity or remorse.\n\n151 (return) [ The conspirators were senators, even the assassin himself. Herod. 81.—G.]",
+        "metadata": {
+          "year": 1782,
+          "topic": "commodus_and_pertinax",
+          "section": "chapter_4",
+          "language": "en",
+          "char_count": 6019,
+          "chunk_index": 3,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+          "unit_in_chapter": 3
+        },
+        "score": 16.367278004063873,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p053_para_010 | data/pg25717.txt | page 53]\nOne evening, as the emperor was returning to the palace, through a dark and narrow portico in the amphitheatre, 14 an assassin, who waited his passage, rushed upon him with a drawn sword, loudly exclaiming, “_The senate sends you this_.” The menace prevented the deed; the assassin was seized by the guards, and immediately revealed the authors of the conspiracy. It had been formed, not in the state, but within the walls of the palace.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p053_para_010"
+    ],
+    "context_chars": 511,
+    "elapsed_ms": 2.013698000155273,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "When the daring soldier Maternus was encompassed in Gaul and Spain, what desperate plan did he concert to murder Commodus at Rome, and why did it fail?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 55,
+        "evidence": "He ordered his followers to disperse, to pass the Alps in small parties and various disguises, and to assemble at Rome, during the licentious tumult of the festival of Cybele."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p055_para_002",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 55,
+        "text": "Maternus found that he was encompassed, and foresaw that he must be overpowered. A great effort of despair was his last resource. He ordered his followers to disperse, to pass the Alps in small parties and various disguises, and to assemble at Rome, during the licentious tumult of the festival of Cybele. 18 To murder Commodus, and to ascend the vacant throne, was the ambition of no vulgar robber. His measures were so ably concerted that his concealed troops already filled the streets of Rome.",
+        "metadata": {
+          "year": 1782,
+          "topic": "commodus_and_pertinax",
+          "section": "chapter_4",
+          "language": "en",
+          "char_count": 5067,
+          "chunk_index": 2,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+          "unit_in_chapter": 4
+        },
+        "score": 25.600616905085296,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p055_para_001",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 55,
+        "text": "Maternus, a private soldier, of a daring boldness above his station, collected these bands of robbers into a little army, set open the prisons, invited the slaves to assert their freedom, and plundered with impunity the rich and defenceless cities of Gaul and Spain. The governors of the provinces, who had long been the spectators, and perhaps the partners, of his depredations, were, at length, roused from their supine indolence by the threatening commands of the emperor.",
+        "metadata": {
+          "year": 1782,
+          "topic": "commodus_and_pertinax",
+          "section": "chapter_4",
+          "language": "en",
+          "char_count": 5067,
+          "chunk_index": 1,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+          "unit_in_chapter": 4
+        },
+        "score": 23.796410346323718,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p054_para_015",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 54,
+        "text": "Gibbon, foreseeing, perhaps, this difficulty, has added, that the military deputation inflamed the divisions of the guards; but Dion says expressly that they did not reach Rome, but that the emperor went out to meet them: he even reproaches him for not having opposed them with the guards, who were superior in number. Herodian relates that Commodus, having learned, from a soldier, the ambitious designs of Perennis and his son, caused them to be attacked and massacred by night.—G. from W.",
+        "metadata": {
+          "year": 1782,
+          "topic": "commodus_and_pertinax",
+          "section": "chapter_4",
+          "language": "en",
+          "char_count": 6019,
+          "chunk_index": 15,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+          "unit_in_chapter": 3
+        },
+        "score": 17.897123215428405,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p055_para_002 | data/pg25717.txt | page 55]\nMaternus found that he was encompassed, and foresaw that he must be overpowered. A great effort of despair was his last resource. He ordered his followers to disperse, to pass the Alps in small parties and various disguises, and to assemble at Rome, during the licentious tumult of the festival of Cybele. 18 To murder Commodus, and to ascend the vacant throne, was the ambition of no vulgar robber. His measures were so ably concerted that his concealed troops already filled the streets of Rome.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p055_para_002"
+    ],
+    "context_chars": 571,
+    "elapsed_ms": 1.310303999161988,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "In Chapter IV, how did Emperor Pertinax treat his private fortune, his wife's title, and his son's rank on the day of his accession?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "page": 60,
+        "evidence": "On the day of his accession, he resigned over to his wife and son his whole private fortune; that they might have no pretence to solicit favors at the expense of the state. He refused to flatter the vanity of the former with the title of Augusta; or to corrupt the inexperienced youth of the latter by the rank of Cæsar."
+      }
+    ],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p060_para_008",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 60,
+        "text": "Pertinax found a nobler way of condemning his predecessor’s memory; by the contrast of his own virtues with the vices of Commodus. On the day of his accession, he resigned over to his wife and son his whole private fortune; that they might have no pretence to solicit favors at the expense of the state. He refused to flatter the vanity of the former with the title of Augusta; or to corrupt the inexperienced youth of the latter by the rank of Cæsar.",
+        "metadata": {
+          "year": 1782,
+          "topic": "commodus_and_pertinax",
+          "section": "chapter_4",
+          "language": "en",
+          "char_count": 5294,
+          "chunk_index": 8,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+          "unit_in_chapter": 9
+        },
+        "score": 44.01156563996873,
+        "retriever": "bm25",
+        "hit": true
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p062_para_000",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 62,
+        "text": "54 (return) [ If we credit Capitolinus, (which is rather difficult,) Falco behaved with the most petulant indecency to Pertinax, on the day of his accession. The wise emperor only admonished him of his youth and in experience. Hist. August. p. 55.]",
+        "metadata": {
+          "year": 1782,
+          "topic": "commodus_and_pertinax",
+          "section": "chapter_4",
+          "language": "en",
+          "char_count": 2287,
+          "chunk_index": 0,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+          "unit_in_chapter": 11
+        },
+        "score": 26.547277693720872,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p058_para_005",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 58,
+        "text": "As a Roman, he declared, that his own life was in the emperor’s hands, but that he would never behold the son of Marcus prostituting his person and dignity. Notwithstanding his manly resolution Pompeianus escaped the resentment of the tyrant, and, with his honor, had the good fortune to preserve his life. 42",
+        "metadata": {
+          "year": 1782,
+          "topic": "commodus_and_pertinax",
+          "section": "chapter_4",
+          "language": "en",
+          "char_count": 5779,
+          "chunk_index": 5,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter IV: The Cruelty, Follies And Murder Of Commodus",
+          "unit_in_chapter": 7
+        },
+        "score": 24.882565210771865,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p060_para_008 | data/pg25717.txt | page 60]\nPertinax found a nobler way of condemning his predecessor’s memory; by the contrast of his own virtues with the vices of Commodus. On the day of his accession, he resigned over to his wife and son his whole private fortune; that they might have no pretence to solicit favors at the expense of the state. He refused to flatter the vanity of the former with the title of Augusta; or to corrupt the inexperienced youth of the latter by the rank of Cæsar.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p060_para_008"
+    ],
+    "context_chars": 525,
+    "elapsed_ms": 1.2667929995586746,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q21_unans",
+    "split": "dev",
+    "question": "In what year did Emperor Constantine the Great officially dedicate and move the imperial capital of the Roman Empire to Constantinople (Byzantium)?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p013_para_009",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 13,
+        "text": "Notwithstanding the change of masters and of religion, the new city of Rome, founded by Constantine on the banks of the Bosphorus, has ever since remained the capital of a great monarchy. The kingdom of Macedonia, which, under the reign of Alexander, gave laws to Asia, derived more solid advantages from the policy of the two Philips; and with its dependencies of Epirus and Thessaly, extended from the Ægean to the Ionian Sea.",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 5409,
+          "chunk_index": 9,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 13
+        },
+        "score": 12.05781813865413,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p006_para_008",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 6,
+        "text": "From such laudable arts did the valor of the Imperial troops receive a degree of firmness and docility unattainable by the impetuous and irregular passions of barbarians.\n\n33 (return) [ The oath of service and fidelity to the emperor was annually renewed by the troops on the first of January.]",
+        "metadata": {
+          "year": 1782,
+          "topic": "military_and_frontiers",
+          "section": "chapter_1",
+          "language": "en",
+          "char_count": 6582,
+          "chunk_index": 8,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter I: The Extent Of The Empire In The Age Of The Antonines",
+          "unit_in_chapter": 6
+        },
+        "score": 11.82838449664847,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p019_para_011",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 19,
+        "text": "Rome, the capital of a great monarchy, was incessantly filled with subjects and strangers from every part of the world, 13 who all introduced and enjoyed the favorite superstitions of their native country. 14 Every city in the empire was justified in maintaining the purity of its ancient ceremonies; and the Roman senate, using the common privilege, sometimes interposed, to check this inundation of foreign rites.",
+        "metadata": {
+          "year": 1782,
+          "topic": "prosperity_and_society",
+          "section": "chapter_2",
+          "language": "en",
+          "char_count": 5504,
+          "chunk_index": 11,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter II: The Internal Prosperity In The Age Of The Antonines",
+          "unit_in_chapter": 3
+        },
+        "score": 11.42065473611768,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p013_para_009 | data/pg25717.txt | page 13]\nNotwithstanding the change of masters and of religion, the new city of Rome, founded by Constantine on the banks of the Bosphorus, has ever since remained the capital of a great monarchy. The kingdom of Macedonia, which, under the reign of Alexander, gave laws to Asia, derived more solid advantages from the policy of the two Philips; and with its dependencies of Epirus and Thessaly, extended from the Ægean to the Ionian Sea.",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p013_para_009"
+    ],
+    "context_chars": 502,
+    "elapsed_ms": 1.5978560004441533,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q22_unans",
+    "split": "dev",
+    "question": "How did the Battle of Adrianople in 378 AD unfold between Emperor Valens and the Visigoths, and what was its fatal outcome for the Emperor?",
+    "strategy": "bm25_lexical",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [],
+    "results": [
+      {
+        "id": "gibbon-decline-and-fall-vol1_p039_para_010",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 39,
+        "text": "5 (return) [ Imperator (from which we have derived Emperor) signified under her republic no more than general, and was emphatically bestowed by the soldiers, when on the field of battle they proclaimed their victorious leader worthy of that title. When the Roman emperors assumed it in that sense, they placed it after their name, and marked how often they had taken it.]\n\n6 (return) [ Dion. l. liii. p. 703, &c.]",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 6250,
+          "chunk_index": 10,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 2
+        },
+        "score": 14.955297972376119,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p050_para_001",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 50,
+        "text": "The fatal moment was perhaps approaching, when some licentious youth, or some jealous tyrant, would abuse, to the destruction, that absolute power, which they had exerted for the benefit of their people. The ideal restraints of the senate and the laws might serve to display the virtues, but could never correct the vices, of the emperor.",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 5068,
+          "chunk_index": 1,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 13
+        },
+        "score": 12.12510054305018,
+        "retriever": "bm25",
+        "hit": false
+      },
+      {
+        "id": "gibbon-decline-and-fall-vol1_p042_para_000",
+        "source_id": "gibbon-decline-and-fall-vol1",
+        "source": "data/pg25717.txt",
+        "page": 42,
+        "text": "14 (return) [ See a fragment of a Decree of the Senate, conferring on the emperor Vespasian all the powers granted to his predecessors, Augustus, Tiberius, and Claudius. This curious and important monument is published in Gruter’s Inscriptions, No. ccxlii. * Note: It is also in the editions of Tacitus by Ryck, (Annal. p. 420, 421,) and Ernesti, (Excurs. ad lib. iv. 6;) but this fragment contains so many inconsistencies, both in matter and form, that its authenticity may be doubted—W.]",
+        "metadata": {
+          "year": 1782,
+          "topic": "constitution_and_emperors",
+          "section": "chapter_3",
+          "language": "en",
+          "char_count": 6052,
+          "chunk_index": 0,
+          "chunk_method": "by_paragraph",
+          "chapter_title": "Chapter III: The Constitution In The Age Of The Antonines",
+          "unit_in_chapter": 5
+        },
+        "score": 11.840745781746094,
+        "retriever": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[gibbon-decline-and-fall-vol1_p039_para_010 | data/pg25717.txt | page 39]\n5 (return) [ Imperator (from which we have derived Emperor) signified under her republic no more than general, and was emphatically bestowed by the soldiers, when on the field of battle they proclaimed their victorious leader worthy of that title. When the Roman emperors assumed it in that sense, they placed it after their name, and marked how often they had taken it.]\n\n6 (return) [ Dion. l. liii. p. 703, &c.]",
+    "context_ids": [
+      "gibbon-decline-and-fall-vol1_p039_para_010"
+    ],
+    "context_chars": 487,
+    "elapsed_ms": 2.627063000545604,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

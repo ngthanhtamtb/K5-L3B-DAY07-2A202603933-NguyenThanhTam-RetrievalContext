@@ -1,0 +1,14 @@
+{
+  "strategy": "bm25_lexical",
+  "split": "dev",
+  "n_total": 17,
+  "n_answerable": 15,
+  "hit1": 9,
+  "hit1_rate": 0.6,
+  "hit3": 13,
+  "hit3_rate": 0.8667,
+  "context_hit": 9,
+  "context_evidence_rate": 0.6,
+  "avg_context_chars": 567.9,
+  "median_ms": 1.97
+}
