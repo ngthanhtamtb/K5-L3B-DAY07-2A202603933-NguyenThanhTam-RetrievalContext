@@ -1,0 +1,588 @@
+[
+  {
+    "query_id": "adv_test_tbl_01",
+    "split": "test",
+    "category": "table",
+    "question": "Theo bảng kết quả nổi bật ở trang 2, tổng doanh thu hợp nhất năm 2024 của Vinamilk đạt bao nhiêu tỷ đồng và tăng trưởng bao nhiêu so với cùng kỳ?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Tổng doanh thu hợp nhất đạt 61.824 tỷ đồng, tăng trưởng 2,2% so với cùng kỳ.",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "61.824 +2,2%"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.44496699774754234
+  },
+  {
+    "query_id": "adv_test_tbl_02",
+    "split": "test",
+    "category": "table",
+    "question": "Lợi nhuận sau thuế hợp nhất năm 2024 của Vinamilk trong bảng chỉ số nổi bật ở trang 2 đạt bao nhiêu tỷ đồng và tăng trưởng bao nhiêu %?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Lợi nhuận sau thuế hợp nhất đạt 9.453 tỷ đồng (tăng 4,8% so với cùng kỳ).",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "+4,8% so với cùng kỳ"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.5542879989661742
+  },
+  {
+    "query_id": "adv_test_tbl_03",
+    "split": "test",
+    "category": "table",
+    "question": "Theo bảng chỉ số nổi bật năm 2024 ở trang 2, mức tăng trưởng đóng góp vào Ngân sách Nhà nước so với cùng kỳ đạt bao nhiêu phần trăm?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Đóng góp vào Ngân sách Nhà nước tăng trưởng 11,3% so với cùng kỳ.",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "so với cùng kỳ+11,3%"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.4501080002228264
+  },
+  {
+    "query_id": "adv_test_tbl_04",
+    "split": "test",
+    "category": "table",
+    "question": "Theo báo cáo kết quả hoạt động kinh doanh kiểm toán ở trang 92, doanh thu thuần năm 2024 đạt bao nhiêu triệu VND?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p092_table_01] (Trang 182-183), Doanh thu thuần năm 2024 đạt 52.576.991 triệu VND.",
+    "citations": [
+      "vnm_2024_p092_table_01"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 92,
+        "evidence": "Doanh thu 52.576.991"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.6195130008563865
+  },
+  {
+    "query_id": "adv_test_tbl_05",
+    "split": "test",
+    "category": "table",
+    "question": "Lợi nhuận gộp năm 2024 được ghi nhận trong báo cáo kết quả kinh doanh kiểm toán ở trang 92 là bao nhiêu triệu VND?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p092_table_01] (Trang 182-183), Lợi nhuận gộp đạt 15.166.269 triệu VND.",
+    "citations": [
+      "vnm_2024_p092_table_01"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 92,
+        "evidence": "Lợi nhuận gộp 15.166.269"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.6568060016434174
+  },
+  {
+    "query_id": "adv_test_tbl_06",
+    "split": "test",
+    "category": "table",
+    "question": "Lợi nhuận trước thuế của Vinamilk năm 2024 theo báo cáo tài chính hợp nhất kiểm toán ở trang 92 là bao nhiêu triệu VND?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p092_table_00] (Trang 182-183), Lợi nhuận trước thuế đạt 10.833.006 triệu VND.",
+    "citations": [
+      "vnm_2024_p092_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 92,
+        "evidence": "Lợi nhuận trước thuế 10.833.006"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.5612320019281469
+  },
+  {
+    "query_id": "adv_test_diag_01",
+    "split": "test",
+    "category": "diagram",
+    "question": "Trong sơ đồ danh mục các từ viết tắt và thuật ngữ chuyên môn ở trang 4, thuật ngữ HMO được định nghĩa đầy đủ là gì?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p004_diagram_00] (Trang 6-7), HMO là viết tắt của Human Milk Oligosaccharides.",
+    "citations": [
+      "vnm_2024_p004_diagram_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 4,
+        "evidence": "Human Milk Oligosaccharides"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.6065490015316755
+  },
+  {
+    "query_id": "adv_test_diag_02",
+    "split": "test",
+    "category": "diagram",
+    "question": "Trong danh mục chữ viết tắt ở trang 4, thuật ngữ kinh doanh Horeca được viết tắt từ các nhóm dịch vụ nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p004_diagram_00] (Trang 6-7), Horeca là viết tắt của Khách sạn, Nhà hàng, Café (Hotel, Restaurant, Cafeteria).",
+    "citations": [
+      "vnm_2024_p004_diagram_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 4,
+        "evidence": "Khách sạn, Nhà hàng, Café (Hotel, Restaurant, Cafeteria)"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.5327440012479201
+  },
+  {
+    "query_id": "adv_test_diag_03",
+    "split": "test",
+    "category": "diagram",
+    "question": "Theo danh mục từ viết tắt trang 4, từ viết tắt FSSC thuộc về chứng nhận tiêu chuẩn nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p004_diagram_00] (Trang 6-7), FSSC là Food Safety System Certification (Chứng nhận hệ thống an toàn thực phẩm).",
+    "citations": [
+      "vnm_2024_p004_diagram_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 4,
+        "evidence": "FSSC"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.5510959999810439
+  },
+  {
+    "query_id": "adv_test_diag_04",
+    "split": "test",
+    "category": "diagram",
+    "question": "Trong danh mục tổ chức chuyên môn ở trang 4, từ viết tắt UBKT đại diện cho ban nào của HĐQT?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p004_diagram_00] (Trang 6-7), UBKT đại diện cho Ủy ban Kiểm toán.",
+    "citations": [
+      "vnm_2024_p004_diagram_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 4,
+        "evidence": "UBKT"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.5206669993640389
+  },
+  {
+    "query_id": "adv_test_diag_05",
+    "split": "test",
+    "category": "diagram",
+    "question": "Từ viết tắt UBCL trong danh mục các ủy ban ở trang 4 đại diện cho cơ quan tham mưu nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p004_diagram_00] (Trang 6-7), UBCL đại diện cho Ủy ban Chiến lược.",
+    "citations": [
+      "vnm_2024_p004_diagram_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 4,
+        "evidence": "UBCL"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.5591199987975415
+  },
+  {
+    "query_id": "adv_test_chart_01",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo các số liệu tăng trưởng ở trang 2, tốc độ tăng trưởng đóng góp Ngân sách Nhà nước (+11,3%) cao hơn tốc độ tăng trưởng doanh thu hợp nhất (+2,2%) bao nhiêu điểm phần trăm?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Cao hơn 9,1 điểm phần trăm (11,3% - 2,2% = 9,1%).",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "61.824 +2,2%"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.3156219972879626
+  },
+  {
+    "query_id": "adv_test_chart_02",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo biểu đồ kết quả nổi bật ở trang 2, tốc độ tăng trưởng lợi nhuận sau thuế (+4,8%) vượt tốc độ tăng trưởng doanh thu hợp nhất (+2,2%) bao nhiêu điểm phần trăm?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Vượt 2,6 điểm phần trăm (4,8% - 2,2% = 2,6%).",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "+4,8% so với cùng kỳ"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.3341510018799454
+  },
+  {
+    "query_id": "adv_test_chart_03",
+    "split": "test",
+    "category": "chart",
+    "question": "Theo biểu đồ kết quả nổi bật ở trang 2, tốc độ tăng trưởng nộp ngân sách (+11,3%) cao hơn tốc độ tăng trưởng lợi nhuận sau thuế (+4,8%) bao nhiêu điểm phần trăm?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Cao hơn 6,5 điểm phần trăm (11,3% - 4,8% = 6,5%).",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "so với cùng kỳ+11,3%"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.3239879988541361
+  },
+  {
+    "query_id": "adv_test_chart_04",
+    "split": "test",
+    "category": "chart",
+    "question": "Số lượng thị trường xuất khẩu lũy kế của Vinamilk năm 2024 được ghi nhận ở trang 2 đã tăng thêm bao nhiêu quốc gia mới so với cùng kỳ?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Tăng thêm 3 quốc gia mới so với cùng kỳ.",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "(+3 quốc gia mới so với cùng kỳ)"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.2970909990835935
+  },
+  {
+    "query_id": "adv_test_chart_05",
+    "split": "test",
+    "category": "chart",
+    "question": "Cột mốc 2024 đánh dấu bao nhiêu năm đồng hành và phục vụ người tiêu dùng Việt Nam của thương hiệu Vinamilk theo biểu đồ chỉ số trang 2?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Đánh dấu 48 năm đồng hành và phục vụ người tiêu dùng Việt Nam.",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "Năm đồng hành và phục vụ người tiêu dùng"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.3406209980312269
+  },
+  {
+    "query_id": "adv_test_multi_01",
+    "split": "test",
+    "category": "multi-hop",
+    "question": "Kết hợp thông tin ở trang 2 và trang 3, doanh nghiệp sữa duy nhất của Việt Nam lọt vào bảng xếp hạng uy tín nào của Đông Nam Á năm 2024?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Lọt vào bảng xếp hạng Fortune 500 Southeast Asia 2024.",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "Fortune 500\nSoutheast Asia 2024"
+      },
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 3,
+        "evidence": "Chủ tịch Hội Đồng Quản Trị"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.4635259974747896
+  },
+  {
+    "query_id": "adv_test_multi_02",
+    "split": "test",
+    "category": "multi-hop",
+    "question": "So sánh doanh thu thuần năm 2024 (52.576.991 triệu VND) và năm 2023 (51.465.324 triệu VND) ở trang 92, doanh thu thuần tăng thêm bao nhiêu triệu VND?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p092_table_00] (Trang 182-183), Tăng thêm 1.111.667 triệu VND (52.576.991 - 51.465.324).",
+    "citations": [
+      "vnm_2024_p092_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 92,
+        "evidence": "Doanh thu 52.576.991 51.465.324"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.6452770030591637
+  },
+  {
+    "query_id": "adv_test_multi_03",
+    "split": "test",
+    "category": "multi-hop",
+    "question": "Từ số liệu doanh thu (52.576.991 triệu VND) và giá vốn hàng bán (37.410.722 triệu VND) ở trang 92, giá vốn hàng bán chiếm khoảng bao nhiêu triệu VND?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p092_table_00] (Trang 182-183), Chiếm 37.410.722 triệu VND.",
+    "citations": [
+      "vnm_2024_p092_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 92,
+        "evidence": "Giá vốn hàng bán và dịch vụ cung cấp (37 .410.722)"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.57560899949749
+  },
+  {
+    "query_id": "adv_test_multi_04",
+    "split": "test",
+    "category": "multi-hop",
+    "question": "Đối chiếu từ viết tắt BCTC ở trang 4 với tên phần tài liệu ở trang 92, BCTC biểu thị cho phần báo cáo nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p004_diagram_00] (Trang 6-7), BCTC biểu thị cho Báo cáo tài chính.",
+    "citations": [
+      "vnm_2024_p004_diagram_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 4,
+        "evidence": "BCTC"
+      },
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 92,
+        "evidence": "Báo cáo tài chính"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 1.0035289997176733
+  },
+  {
+    "query_id": "adv_test_txt_01",
+    "split": "test",
+    "category": "text",
+    "question": "Tuyên bố Tầm nhìn của Vinamilk được nêu trong mục Thông tin chung ở trang 10 là gì?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p010_diagram_00] (Trang 18-19), Trở thành biểu tượng niềm tin hàng đầu Việt Nam về sản phẩm dinh dưỡng và sức khỏe phục vụ cuộc sống con người.",
+    "citations": [
+      "vnm_2024_p010_diagram_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 10,
+        "evidence": "Trở thành biểu tượng niềm\ntin hàng đầu Việt Nam về\nsản phẩm dinh dưỡng và sức\nkhỏe phục vụ cuộc sống con\nngười."
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.676613999530673
+  },
+  {
+    "query_id": "adv_test_txt_02",
+    "split": "test",
+    "category": "text",
+    "question": "Cam kết Sứ mệnh của Vinamilk đối với cộng đồng được khẳng định ra sao ở trang 10?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p010_diagram_00] (Trang 18-19), Vinamilk cam kết mang đến cho cộng đồng nguồn dinh dưỡng và chất lượng cao cấp hàng đầu.",
+    "citations": [
+      "vnm_2024_p010_diagram_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 10,
+        "evidence": "Vinamilk cam kết mang đến\ncho cộng đồng nguồn dinh\ndưỡng và chất lượng cao\ncấp hàng đầu bằng chính"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.7017200005066115
+  },
+  {
+    "query_id": "adv_test_txt_03",
+    "split": "test",
+    "category": "text",
+    "question": "Địa chỉ trụ sở chính thức của Công ty Cổ phần Sữa Việt Nam được in ở trang 96 của báo cáo là gì?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p096_text_00] (Trang 54-155), 10 Tân Trào, Phường Tân Phú, Quận 7, TP. Hồ Chí Minh.",
+    "citations": [
+      "vnm_2024_p096_text_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 96,
+        "evidence": "10 Tân Trào, Phường Tân Phú, Quận 7, TP. Hồ Chí Minh"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.17864300025394186
+  },
+  {
+    "query_id": "adv_test_txt_04",
+    "split": "test",
+    "category": "text",
+    "question": "Địa chỉ website chính thức của Vinamilk được cung cấp ở trang 96 liên hệ là gì?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p096_text_00] (Trang 54-155), www.vinamilk.com.vn.",
+    "citations": [
+      "vnm_2024_p096_text_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 96,
+        "evidence": "www.vinamilk.com.vn"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.15425699893967248
+  },
+  {
+    "query_id": "adv_test_unans_01",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Theo báo cáo, doanh thu và lợi nhuận chi tiết của Vinamilk trong quý 3 năm 2025 dự kiến đạt bao nhiêu tỷ đồng?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Dựa trên Báo cáo thường niên 2024 của Vinamilk, tài liệu không chứa bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "passed": true,
+    "elapsed_ms": 0.0030279989005066454
+  },
+  {
+    "query_id": "adv_test_unans_02",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Báo cáo có công bố tỷ lệ thị phần sữa tươi thanh trùng của công ty đối thủ TH True Milk tại miền Bắc năm 2024 không?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Dựa trên Báo cáo thường niên 2024 của Vinamilk, tài liệu không chứa bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "passed": true,
+    "elapsed_ms": 0.002768996637314558
+  },
+  {
+    "query_id": "adv_test_unans_03",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Giá cổ phiếu VNM đóng cửa trong phiên giao dịch ngày 15 tháng 10 năm 2026 đạt bao nhiêu nghìn đồng/cổ phiếu?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Dựa trên Báo cáo thường niên 2024 của Vinamilk, tài liệu không chứa bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "passed": true,
+    "elapsed_ms": 0.0017799975466914475
+  },
+  {
+    "query_id": "adv_test_unans_04",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Báo cáo có nêu danh sách họ tên chi tiết và mức lương thưởng của toàn bộ 10.000 công nhân tại các trang trại không?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Dựa trên Báo cáo thường niên 2024 của Vinamilk, tài liệu không chứa bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "passed": true,
+    "elapsed_ms": 0.002354001480853185
+  },
+  {
+    "query_id": "adv_test_unans_05",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Kế hoạch thâu tóm chuỗi siêu thị cà phê Highlands Coffee của Vinamilk được đề cập ở trang nào?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Dựa trên Báo cáo thường niên 2024 của Vinamilk, tài liệu không chứa bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "passed": true,
+    "elapsed_ms": 0.0026999987312592566
+  },
+  {
+    "query_id": "adv_test_unans_06",
+    "split": "test",
+    "category": "unanswerable",
+    "question": "Tổng kinh phí đầu tư trạm phóng vệ tinh viễn thông nông nghiệp của Vinamilk năm 2024 là bao nhiêu triệu USD?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Dựa trên Báo cáo thường niên 2024 của Vinamilk, tài liệu không chứa bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "passed": true,
+    "elapsed_ms": 0.003827000909950584
+  }
+]

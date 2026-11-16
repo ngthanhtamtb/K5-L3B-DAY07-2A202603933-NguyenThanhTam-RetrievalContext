@@ -1,0 +1,40 @@
+{
+  "benchmark": "Vinamilk Annual Report 2024 (100+ pages)",
+  "split": "test",
+  "total_questions": 30,
+  "passed_questions": 30,
+  "pass_rate_percent": 100.0,
+  "target_met_ge_90": true,
+  "categories": {
+    "table": {
+      "passed": 6,
+      "total": 6,
+      "rate": 100.0
+    },
+    "diagram": {
+      "passed": 5,
+      "total": 5,
+      "rate": 100.0
+    },
+    "chart": {
+      "passed": 5,
+      "total": 5,
+      "rate": 100.0
+    },
+    "multi-hop": {
+      "passed": 4,
+      "total": 4,
+      "rate": 100.0
+    },
+    "text": {
+      "passed": 4,
+      "total": 4,
+      "rate": 100.0
+    },
+    "unanswerable": {
+      "passed": 6,
+      "total": 6,
+      "rate": 100.0
+    }
+  }
+}

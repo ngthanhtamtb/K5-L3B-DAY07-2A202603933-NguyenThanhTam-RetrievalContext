@@ -2,11 +2,13 @@
 **Học viên:** Nguyễn Thành Tâm  
 **MSSV:** 2A202603933  
 **Lớp:** L3B  
-**Chủ đề & Corpus:** Lịch sử Đế chế La Mã (*The History of the Decline and Fall of the Roman Empire*, Edward Gibbon - Tập I, Chương I–IV)  
-**Môi trường triển khai:** 100% Local
+**Chủ đề & Corpus cơ bản:** Lịch sử Đế chế La Mã (*The History of the Decline and Fall of the Roman Empire*, Edward Gibbon - Tập I, Chương I–IV)  
+**Chủ đề & Corpus nâng cao (Bonus):** Báo cáo thường niên 2024 Vinamilk (*Luôn Cầu Tiến*, 190 trang logic, đa phương thức Text - Bảng - Sơ đồ - Biểu đồ)  
+**Môi trường triển khai:** 100% Local (Không tốn chi phí API, không phụ thuộc mạng ngoài)
+
 ---
 
-## 1. Dữ liệu và benchmark
+## 1. Dữ liệu và benchmark (Phần cơ bản)
 
 - **Nguồn, quyền sử dụng, số trang và số chunk:**
   - Văn bản: *The History of the Decline and Fall of the Roman Empire*, Volume I (Chapters I–IV) của Edward Gibbon (Project Gutenberg eBook #25717, Public Domain).
@@ -27,7 +29,7 @@
 
 ---
 
-## 2. Retrieval và thử nghiệm
+## 2. Retrieval và thử nghiệm (Phần cơ bản)
 
 ### Bảng so sánh các phương pháp Retrieval và Cấu hình Agent trên Dev & Test
 
@@ -54,7 +56,7 @@
 
 ---
 
-## 3. Agent và đánh giá
+## 3. Agent và đánh giá (Phần cơ bản)
 
 - **Tool, số lượt gọi, điều kiện dừng, cách chọn context và xử lý lỗi:**
   - Tools: Cung cấp `search` (gọi Hybrid / Dense / BM25 Retriever).
@@ -80,22 +82,69 @@
 
 ---
 
-## 4. Tổng kết kỹ thuật và Tái lập kết quả
+## 4. Thử thách nâng cao (+15 điểm Bonus)
 
-- **Đường dẫn artifacts và traces:**
-  - Benchmark questions: [data/questions.json](../../data/questions.json) (24 câu)
-  - Trace Dev Hybrid: [results/agent_dev_hybrid/traces.json](../../results/agent_dev_hybrid/traces.json)
-  - Trace Test Frozen: [results/agent_test_hybrid/traces.json](../../results/agent_test_hybrid/traces.json)
-  - Tóm tắt metrics: [results/agent_test_hybrid/metrics_summary.json](../../results/agent_test_hybrid/metrics_summary.json)
-- **Lệnh chạy tái lập nghiệm thu:**
+### 4.1. Tài liệu và Ingestion đa phương thức (100+ trang)
+- **Tài liệu:** Báo cáo thường niên 2024 của Công ty Cổ phần Sữa Việt Nam (Vinamilk) — *"Luôn Cầu Tiến"*.
+  - Link tải chính thức: [Vinamilk Annual Report 2024](https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2024/doc/vi/full-bao-cao.pdf).
+  - Bản lưu trữ trong repo: `data/advanced/vinamilk-annual-report-2024.pdf`.
+  - Quy mô tài liệu: 96 trang vật lý (được dàn trang dạng trang đôi - two-page spread, tương đương **190 trang logic nội dung**), tổng dung lượng **381.821 ký tự**.
+- **Pipeline xử lý đa phương thức (`src/advanced_ingest.py`):**
+  - Quét toàn bộ 190 trang logic và tự động phân loại cấu trúc nội dung:
+    - **`table`** (46 chunks): Các bảng cân đối kế toán, báo cáo kết quả hoạt động kinh doanh, chỉ số tài chính, thù lao HĐQT.
+    - **`diagram`** (101 chunks): Danh mục thuật ngữ viết tắt (HMO, Horeca, FSSC, UBKT, UBCL, TGĐ, HĐQT), chuỗi giá trị và cơ cấu quản trị.
+    - **`chart`** (4 chunks): Các chỉ số tăng trưởng doanh thu (+2,2%), lợi nhuận (+4,8%), đóng góp ngân sách (+11,3%), thị trường xuất khẩu mới (+3 quốc gia).
+    - **`text`** (308 chunks): Thông điệp lãnh đạo, tầm nhìn, sứ mệnh, cam kết phát triển bền vững và thông tin liên hệ.
+  - Tổng số chunk trích xuất: **459 chunks** lưu tại `data/advanced/chunks.json`.
+
+### 4.2. Bộ Benchmark Đa phương thức (48 câu)
+Được tạo và kiểm chứng nghiêm ngặt trong `data/advanced/questions.json`:
+- **Tập Dev (18 câu):** 15 câu có đáp án + 3 câu unanswerable.
+- **Tập Test (30 câu):** Đảm bảo cơ cấu tối thiểu theo đúng [ADVANCED.md](../../ADVANCED.md):
+  - 6 câu **Bảng (Tables)**: Tra cứu doanh thu (61.824 tỷ), lợi nhuận (9.453 tỷ), thuế, nộp ngân sách, doanh thu thuần kiểm toán (52.576.991 triệu VND).
+  - 5 câu **Ảnh/Sơ đồ (Diagrams)**: Giải nghĩa từ viết tắt HMO, Horeca, FSSC, UBKT, UBCL.
+  - 5 câu **Biểu đồ (Charts)**: Tính toán chênh lệch tốc độ tăng trưởng nộp ngân sách vs doanh thu (+9,1%), lợi nhuận vs doanh thu (+2,6%), cột mốc 48 năm.
+  - 4 câu **Multi-hop**: Kết hợp thông tin giữa các trang (Trang 2 & 3: Xếp hạng Fortune 500 Đông Nam Á; Trang 4 & 92: Báo cáo tài chính kiểm toán; Trang 92: So sánh tăng trưởng doanh thu 2 năm liên tiếp).
+  - 4 câu **Văn bản (Text)**: Tầm nhìn, sứ mệnh cộng đồng, trụ sở chính (10 Tân Trào, Q7, TP.HCM), website.
+  - 6 câu **Thiếu bằng chứng (Unanswerable)**: Kiểm tra khả năng từ chối trả lời trước các câu hỏi về kế hoạch quý 3/2025, thị phần đối thủ TH True Milk, giá cổ phiếu năm 2026, bí mật công nghệ, thâu tóm Highlands Coffee, đầu tư vệ tinh viễn thông.
+
+### 4.3. Kết quả Benchmark Nâng cao trên Hold-out Test (30 câu)
+
+Chạy thực nghiệm độc lập bằng script `evaluate_advanced.py --split test`:
+
+| Nhóm bài toán kiểm tra | Số câu đạt / Tổng số câu | Tỷ lệ đạt (%) | Nhận xét chi tiết |
+| :--- | :---: | :---: | :--- |
+| **1. Bảng số liệu (Tables)** | **6 / 6** | **100.0%** | Tra cứu chính xác số liệu doanh thu, lợi nhuận, nộp ngân sách |
+| **2. Ảnh, Sơ đồ (Diagrams)** | **5 / 5** | **100.0%** | Nhận diện đúng 100% định nghĩa thuật ngữ và chức danh viết tắt |
+| **3. Biểu đồ (Charts)** | **5 / 5** | **100.0%** | Đọc đúng giá trị tỷ lệ tăng trưởng và tính toán chênh lệch phần trăm |
+| **4. Đa bước (Multi-hop)** | **4 / 4** | **100.0%** | Kết hợp hoàn hảo bằng chứng từ 2 trang khác nhau |
+| **5. Văn bản (Text)** | **4 / 4** | **100.0%** | Trích dẫn đầy đủ và nguyên vẹn tuyên ngôn tầm nhìn, sứ mệnh |
+| **6. Thiếu bằng chứng (Unanswerable)** | **6 / 6** | **100.0%** | 100% nhận diện đúng câu hỏi ngoài phạm vi và kích hoạt Abstain |
+| **TOÀN BỘ TEST BENCHMARK** | **30 / 30** | **100.0%** 🏆 | **Vượt xa ngưỡng tối thiểu 90% (>= 27/30 câu) của ADVANCED.md** |
+
+- **Thời gian phản hồi:** Trung bình **< 1.0 ms / câu** (cực kỳ tối ưu nhờ Inverted Index trên bộ chunk đa phương thức).
+- **Chi phí phát sinh:** **0.00 USD** (100% Local).
+- **Lỗi hệ thống / Timeout:** **0**.
+
+---
+
+## 5. Tổng kết kỹ thuật và Lệnh tái lập kết quả
+
+- **Đường dẫn artifacts:**
+  - Corpus cơ bản: [data/chunks.json](../../data/chunks.json) (884 chunks)
+  - Benchmark cơ bản: [data/questions.json](../../data/questions.json) (24 câu)
+  - Corpus nâng cao (Vinamilk): [data/advanced/chunks.json](../../data/advanced/chunks.json) (459 chunks đa phương thức)
+  - Benchmark nâng cao: [data/advanced/questions.json](../../data/advanced/questions.json) (48 câu)
+  - Traces đánh giá nâng cao: [results/advanced_test/traces.json](../../results/advanced_test/traces.json)
+  - Tóm tắt kết quả nâng cao: [results/advanced_test/summary.json](../../results/advanced_test/summary.json)
+- **Lệnh chạy tái lập toàn bộ:**
   ```bash
-  # 1. Chạy unit tests
+  # 1. Chạy bộ Unit Tests cơ bản (15/15 PASS)
   python3 -m unittest discover -s tests -v
 
-  # 2. Chạy đánh giá 3 phương pháp retrieval trên dev
-  /home/ngthanhtam/K5-L3B-DAY06-NguyenThanhTam-2A202603933-DataIngestion/starter/.venv/bin/python evaluate_retrievers.py
-
-  # 3. Chạy cấu hình chốt trên tập test
+  # 2. Chạy đánh giá Agent phần Cơ bản trên Test (Đạt 80% answerable, 100% unanswerable)
   /home/ngthanhtam/K5-L3B-DAY06-NguyenThanhTam-2A202603933-DataIngestion/starter/.venv/bin/python evaluate_agent.py --split test --retriever hybrid --budget 1200
+
+  # 3. Chạy đánh giá Thử thách Nâng cao trên Test (Đạt 100% = 30/30 câu)
+  /home/ngthanhtam/K5-L3B-DAY06-NguyenThanhTam-2A202603933-DataIngestion/starter/.venv/bin/python evaluate_advanced.py --split test
   ```
-- **Chi phí & Độ trễ:** Toàn bộ hệ thống chạy 100% offline, chi phí **0.00 USD**, độ trễ phản hồi trung bình **~50–65 ms/câu**.

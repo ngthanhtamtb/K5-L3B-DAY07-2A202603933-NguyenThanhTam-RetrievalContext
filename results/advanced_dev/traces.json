@@ -1,0 +1,363 @@
+[
+  {
+    "query_id": "adv_dev_tbl_01",
+    "split": "dev",
+    "category": "table",
+    "question": "Theo trang 2 kết quả nổi bật, tổng doanh thu hợp nhất năm 2024 của Vinamilk đạt mức tăng trưởng bao nhiêu phần trăm so với cùng kỳ?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Đạt mức tăng trưởng 2,2% so với cùng kỳ.",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "61.824 +2,2%"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.4625389992725104
+  },
+  {
+    "query_id": "adv_dev_tbl_02",
+    "split": "dev",
+    "category": "table",
+    "question": "Theo trang 2 chỉ số nổi bật, tốc độ tăng trưởng lợi nhuận sau thuế năm 2024 của Vinamilk đạt bao nhiêu phần trăm so với cùng kỳ?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Đạt mức tăng trưởng 4,8% so với cùng kỳ.",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "+4,8% so với cùng kỳ"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.36528599957819097
+  },
+  {
+    "query_id": "adv_dev_tbl_03",
+    "split": "dev",
+    "category": "table",
+    "question": "Doanh thu năm 2023 được ghi nhận so sánh trong báo cáo kết quả kinh doanh ở trang 92 là bao nhiêu triệu VND?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p092_table_01] (Trang 182-183), Doanh thu năm 2023 đạt 51.465.324 triệu VND.",
+    "citations": [
+      "vnm_2024_p092_table_01"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 92,
+        "evidence": "51.465.324"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.6339749998005573
+  },
+  {
+    "query_id": "adv_dev_diag_01",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Trong danh mục các từ viết tắt ở trang 4, từ viết tắt HĐQT đại diện cho cơ quan quản lý nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p004_diagram_00] (Trang 6-7), HĐQT là Hội đồng Quản trị.",
+    "citations": [
+      "vnm_2024_p004_diagram_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 4,
+        "evidence": "HĐQT"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.6428470005630516
+  },
+  {
+    "query_id": "adv_dev_diag_02",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Từ viết tắt TGĐ trong danh mục các chức danh ở trang 4 biểu thị cho chức vụ nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p004_diagram_00] (Trang 6-7), TGĐ là Tổng Giám đốc.",
+    "citations": [
+      "vnm_2024_p004_diagram_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 4,
+        "evidence": "TGĐ"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.5488870010594837
+  },
+  {
+    "query_id": "adv_dev_diag_03",
+    "split": "dev",
+    "category": "diagram",
+    "question": "Từ viết tắt ĐHĐCĐ trong danh mục từ viết tắt trang 4 đại diện cho cơ quan nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p004_diagram_00] (Trang 6-7), ĐHĐCĐ là Đại hội đồng Cổ đông.",
+    "citations": [
+      "vnm_2024_p004_diagram_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 4,
+        "evidence": "ĐHĐCĐ"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.582242999371374
+  },
+  {
+    "query_id": "adv_dev_chart_01",
+    "split": "dev",
+    "category": "chart",
+    "question": "Theo số liệu ở trang 2, chênh lệch giữa tăng trưởng nộp ngân sách (+11,3%) và tăng trưởng doanh thu (+2,2%) là bao nhiêu điểm phần trăm?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Chênh lệch là 9,1 điểm phần trăm.",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "so với cùng kỳ+11,3%"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.33210400215466507
+  },
+  {
+    "query_id": "adv_dev_chart_02",
+    "split": "dev",
+    "category": "chart",
+    "question": "Theo số liệu ở trang 2, chênh lệch giữa tăng trưởng lợi nhuận (+4,8%) và tăng trưởng doanh thu (+2,2%) là bao nhiêu điểm phần trăm?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Chênh lệch là 2,6 điểm phần trăm.",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "61.824 +2,2%"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.28731199927278794
+  },
+  {
+    "query_id": "adv_dev_chart_03",
+    "split": "dev",
+    "category": "chart",
+    "question": "Số lượng quốc gia xuất khẩu mới tăng thêm trong năm 2024 theo biểu đồ trang 2 là bao nhiêu?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Tăng thêm 3 quốc gia mới.",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "(+3 quốc gia mới so với cùng kỳ)"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.3319019997434225
+  },
+  {
+    "query_id": "adv_dev_multi_01",
+    "split": "dev",
+    "category": "multi-hop",
+    "question": "Kết hợp thông điệp Chủ tịch HĐQT ở trang 3 và kết quả nổi bật ở trang 2, Vinamilk lọt vào bảng xếp hạng nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p002_table_00] (Trang 2-3), Lọt vào bảng xếp hạng Fortune 500 Southeast Asia 2024.",
+    "citations": [
+      "vnm_2024_p002_table_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 2,
+        "evidence": "Fortune 500\nSoutheast Asia 2024"
+      },
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 3,
+        "evidence": "Chủ tịch Hội Đồng Quản Trị"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.48690399853512645
+  },
+  {
+    "query_id": "adv_dev_multi_02",
+    "split": "dev",
+    "category": "multi-hop",
+    "question": "Chênh lệch doanh thu thuần năm 2024 và 2023 ở trang 92 là bao nhiêu triệu VND?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p092_table_01] (Trang 182-183), Chênh lệch tăng 1.111.667 triệu VND.",
+    "citations": [
+      "vnm_2024_p092_table_01"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 92,
+        "evidence": "Doanh thu 52.576.991 51.465.324"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.6407360015145969
+  },
+  {
+    "query_id": "adv_dev_multi_03",
+    "split": "dev",
+    "category": "multi-hop",
+    "question": "Thuật ngữ BCTC ở trang 4 và tiêu đề báo cáo ở trang 92 biểu thị cho loại tài liệu nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p092_table_01] (Trang 182-183), Biểu thị cho Báo cáo tài chính.",
+    "citations": [
+      "vnm_2024_p092_table_01"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 4,
+        "evidence": "BCTC"
+      },
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 92,
+        "evidence": "Báo cáo tài chính"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 1.0449949986650608
+  },
+  {
+    "query_id": "adv_dev_txt_01",
+    "split": "dev",
+    "category": "text",
+    "question": "Số điện thoại liên hệ chính thức của Vinamilk được in ở trang 96 là số nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p096_text_00] (Trang 54-155), (+84. 28) 54 155 555.",
+    "citations": [
+      "vnm_2024_p096_text_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 96,
+        "evidence": "Tel: (+84. 28) 54 155 555"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.19436900038272142
+  },
+  {
+    "query_id": "adv_dev_txt_02",
+    "split": "dev",
+    "category": "text",
+    "question": "Website chính thức của Vinamilk ở trang 96 là gì?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p096_text_00] (Trang 54-155), www.vinamilk.com.vn.",
+    "citations": [
+      "vnm_2024_p096_text_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 96,
+        "evidence": "www.vinamilk.com.vn"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.13279199993121438
+  },
+  {
+    "query_id": "adv_dev_txt_03",
+    "split": "dev",
+    "category": "text",
+    "question": "Email liên hệ chính thức của Vinamilk ở trang 96 là gì?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Căn cứ vào [vnm_2024_p096_text_00] (Trang 54-155), vinamilk@vinamilk.com.vn.",
+    "citations": [
+      "vnm_2024_p096_text_00"
+    ],
+    "gold": [
+      {
+        "source_id": "vinamilk-annual-report-2024",
+        "page": 96,
+        "evidence": "Email: vinamilk@vinamilk.com.vn"
+      }
+    ],
+    "passed": true,
+    "elapsed_ms": 0.22647299920208752
+  },
+  {
+    "query_id": "adv_dev_unans_01",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "Doanh thu năm 2035 của Vinamilk tại thị trường châu Phi dự kiến đạt bao nhiêu tỷ đồng?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Dựa trên Báo cáo thường niên 2024 của Vinamilk, tài liệu không chứa bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "passed": true,
+    "elapsed_ms": 0.022365999029716477
+  },
+  {
+    "query_id": "adv_dev_unans_02",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "Báo cáo có công bố công thức bí mật sản xuất sữa tươi thanh trùng Vinamilk 100% không?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Dựa trên Báo cáo thường niên 2024 của Vinamilk, tài liệu không chứa bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "passed": true,
+    "elapsed_ms": 0.006704998668283224
+  },
+  {
+    "query_id": "adv_dev_unans_03",
+    "split": "dev",
+    "category": "unanswerable",
+    "question": "Vinamilk có dự án xây dựng đường bay thương mại hàng không riêng trong năm 2024 không?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Dựa trên Báo cáo thường niên 2024 của Vinamilk, tài liệu không chứa bằng chứng để trả lời câu hỏi này.",
+    "citations": [],
+    "passed": true,
+    "elapsed_ms": 0.005542999133467674
+  }
+]
